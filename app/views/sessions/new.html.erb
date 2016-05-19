@@ -1,0 +1,24 @@
+<head>
+		<meta name="author" content="Matthew Lewicki">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta charset="UTF-8">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+		<title>Spotify Login</title>
+	</head>
+	<body>
+    <% if flash.now[:danger] %>
+      <div class="alert alert-danger "><%=  flash.now[:danger] %></div>
+    <% end %>
+		<section>
+       <h1>Welcome to Tunes and Food</h1>
+			 <p>Log in with your Spotify account </p>
+        <div class="spotify_logo"><img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRNITBCIzPtexvfXQbi3DG4nsDjtebT0jUth_uWneg7HxCCHEcI-hnrU5gY"></div>
+					<%= link_to '/auth/spotify' do%>
+						<i class="glyphicon glyphicon-th-profile"></i>
+						Sign in
+					<% end %>
+
+
+		</section>
+	</body>
+</html>

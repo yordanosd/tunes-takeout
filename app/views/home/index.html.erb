@@ -1,0 +1,36 @@
+<h1>HELLO</h1>
+<% count = 1 %>
+<div class="profile-content">
+  <h3>Top Twenty Suggestions</h2>
+  <table class="table table-striped">
+    <thead>
+      <tr class = "header">
+        <th>Ranking </th>
+        <th class = "header">Music</th>
+        <th class = "header">Release Date</th>
+      </tr>
+    </thead>
+    <tbody class="table-body">
+      <% @top_twenty.each do |suggestion| %>
+        <% music = Music.find(suggestion["music_type"].capitalize, suggestion["music_id"]) %>
+        <tr>
+          <td class="ranking"><%= count %> </td>
+          <td>
+            <div class="album-picture">
+              <% album_picture = music.images if music.type == "album" %>
+              <% album_picture = music.images if music.type == "artist" %>
+              <% album_picture = music.album.images if music.type == "track" %>
+
+              <%= link_to( image_tag(Music.picture?(album_picture)), image_path( music.external_urls["spotify"] )) %>
+              <div class="media-body">
+                <span class="title"><%= music.name%></span>
+              </div>
+            </div>
+          </td>
+          <% count += 1 %>
+        </tr>
+
+      <% end %>
+    </tbody>
+  </table>
+</div>

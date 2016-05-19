@@ -1,0 +1,30 @@
+// Place all the styles related to the users controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.album-picture  {
+  float: none;
+  margin: 0 auto;
+  width: 20%;
+  height: 20%;
+  -webkit-border-radius: 10% !important;
+  -moz-border-radius: 10% !important;
+  border-radius: 10% !important;
+}
+
+.ranking{
+  text-align: left;
+  padding: 0;
+}
+
+.title {
+  text-transform: uppercase;
+  color: cadetblue;
+}
+
+
+  img {
+    vertical-align: middle;
+    width: 20%;
+
+}

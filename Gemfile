@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.3.0'
+ruby '2.3.1'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.6'
@@ -33,10 +33,16 @@ gem 'httparty'
 gem 'yelp', require: 'yelp'
 gem 'rspotify', require: 'rspotify'
 
+gem 'rest-client'
+gem "omniauth"
+gem 'omniauth-spotify'
+gem 'omniauth-oauth2', '~> 1.3.1'
+
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
-
+  gem 'dotenv-rails'
 
 end
 
@@ -47,6 +53,8 @@ group :development do
   gem 'pry-rails'
   gem 'erd'
   gem 'bootstrap-sass', '~>3.2.0'
+  gem "binding_of_caller"
+  gem "rest-client"
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 end
