@@ -5,10 +5,12 @@ require 'yelp'
 
 class Food
 
-  # def yelp_find(id)
-  #   parameters = { term: params[:term], limit: 16 }
-  #   render json: Yelp.client.search(id, parameters)
-  # end
+
+  def self.yelp_find_by_business(id)
+    data = Yelp.client.business(id).business
+  end
+
+  # Yelp.client.search(id, parameters)
 
 
 end

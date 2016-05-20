@@ -27,6 +27,19 @@
               </div>
             </div>
           </td>
+          <td>
+          <div class="album-picture">
+            <% album_picture = music.images if music.type == "album" %>
+            <% album_picture = music.images if music.type == "artist" %>
+            <% album_picture = music.album.images if music.type == "track" %>
+
+            <%= link_to( image_tag(Food.yelp_find_by_business(suggestion["food_id"]).image_url), image_path(Food.yelp_find_by_business(suggestion["food_id"]).url)) %>
+            <div class="media-body">
+              <span class="title"><%= music.name%></span>
+            </div>
+          </div>
+        </td>
+          <td><img src="<%= Food.yelp_find_by_business(suggestion["food_id"]).rating_img_url %>"></a></td>
           <% count += 1 %>
         </tr>
 

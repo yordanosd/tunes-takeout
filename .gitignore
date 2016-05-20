@@ -65,3 +65,5 @@ build-iPhoneSimulator/
 .rvmrc
 
 /.env
+
+config/initializers/yelp.rb
