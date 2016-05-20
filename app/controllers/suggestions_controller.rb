@@ -3,8 +3,15 @@ class SuggestionsController < ApplicationController
     # shows top 20 suggestions, ranked by total number of favorites
   end
 
+  def search
+    # @result = TunesTakeout.search_results(params["search"])
+    redirect_to user_path(id: params["id"], suggestions_search: params["search"])
+  end
+
   def favorites
-    # shows all suggestions favorited by the signed-in User
+    @result = TunesTakeout.favorites_by_user_id(params["user_id"])
+    redirect_to user_favorites_path(params["user_id"])
+
   end
 
   def favorite

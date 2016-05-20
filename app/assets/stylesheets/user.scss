@@ -41,7 +41,7 @@
     filter: blur(25px);
     margin-left: -100px;
     margin-top: -200px;
-    min-width: 130%;
+    // min-width: 130%;
 }
 .card.hovercard .useravatar {
     position: absolute;
@@ -88,4 +88,8 @@
 }
 .btn-pref .btn {
     -webkit-border-radius:0 !important;
+}
+
+.user-header-image{
+  width: 100%;
 }

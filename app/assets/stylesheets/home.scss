@@ -2,7 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.album-picture  {
+
+
+.album-picture  img{
   float: none;
   margin: 0 auto;
   width: 20%;
@@ -27,4 +29,7 @@
     vertical-align: middle;
     width: 20%;
 
+}
+.image{
+  width: 20%;
 }

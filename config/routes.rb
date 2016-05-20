@@ -7,12 +7,16 @@ Rails.application.routes.draw do
   get "/auth/:provider/callback" => "sessions#create"
   get "/logout" => "sessions#destroy", as: "logout"
 
+  post "/user/:id/search" => "suggestions#search", as:"suggestions_search"
 
-  get '/v1/suggestions/search' => "suggestions#index", as:"search"
+  get "/user/:id/search" => "suggestions#search", as:"suggestions_result"
+
+  # get '/v1/suggestions/search' => "suggestions#index", as:"search"
 
     resources :user, only: [:show, :index] do
         resources :favorites, :controller => "suggestions", :only => [:index, :show]
     end
+
 
     resources :favorites, :controller => "suggestions", :only => [:index, :show]
 
