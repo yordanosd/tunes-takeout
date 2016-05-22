@@ -1,4 +1,5 @@
 <div class="col-lg-12 col-sm-12">
+
     <div class="card hovercard">
         <div class="card-background">
             <img class="user-header-image" alt="" src="http://kedarlyrics.com/wp-content/uploads/2015/03/Soul-Food1.jpg">
@@ -6,6 +7,25 @@
         </div>
         <div class="useravatar">
             <img alt="" src="">
+            <script id="result-template" type="text/x-handlebars-template">
+                    <dl>
+                      <img src="{{images.0.url}}">
+                      <dt>User Name</dt>
+                      <dd>{{id}}</dd>
+                      <dt>Display Name</dt>
+                      <dd>{{display_name}}</dd>
+                      <dt>Country</dt>
+                      <dd>{{country}}</dd>
+                      <dt>Followers</dt>
+                      <dd>{{followers.total}}</dd>
+                      <dt>Profile</dt>
+                      <dd><a href="{{external_urls.spotify}}" target="_blank">{{external_urls.spotify}}</a></dd>
+                      <dt>Email</dt>
+                      <dd>{{email}}</dd>
+                      <dt>Product</dt>
+                      <dd>{{product}}</dd>
+                    </dl>
+                </script>
         </div>
         <div class="card-info"> <span class="card-title">HI</span>
 
@@ -56,34 +76,94 @@
                   </tr>
                 </thead>
                 <tbody class="table-body">
+                  <% track = [] %>
+
                   <% @result.each do |suggestion| %>
                     <% music = Music.find(suggestion["music_type"].capitalize, suggestion["music_id"]) %>
                     <% food = Food.yelp_find_by_business(suggestion["food_id"]) %>
                     <% album_picture = music.images if music.type == "album" %>
                     <% album_picture = music.images if music.type == "artist" %>
                     <% album_picture = music.album.images if music.type == "track" %>
+                    <% @id_value = suggestion["music_id"]%>
+
                     <tr>
                       <td class="ranking"><%= count %> </td>
-                      <td class="image">
-                        <div class="picture">
-                          <%= link_to( image_tag(Music.picture?(album_picture)), image_path( music.external_urls["spotify"] )) %>
-                          <div class="media-body">
-                            <span class="title"><%= music.name%></span>
-                          </div>
-                        </div>
-                      </td>
+                      <td><img id="<%=suggestion["music_id"]%>" onclick="changeImage('<%=@id_value%>')" src="http://thumb7.shutterstock.com/display_pic_with_logo/1280533/200698931/stock-vector-most-listened-favorite-icon-200698931.jpg" value = "" width="60%" ></td>
                       <td class="image">
                       <div class="album-picture">
-                        <%= link_to( image_tag(food.image_url), image_path(food.url)) %>
+                          <a href="<%=music.external_urls["spotify"]%>"><img src="<%= Music.picture?(album_picture) %>" width="20%"></a>
+                        <div class="media-body">
+                          <span class="title"><%= music.name%></span>
+                        </div>
+                      </div>
+                    </td>
+                      <td class="image">
+                      <div class="album-picture">
+                        <a href="<%=food.url%>"><img src="<%= food.image_url %>" width="20%"></a>
                         <div class="media-body">
                           <span class="title"><%= food.name%></span>
                         </div>
                       </div>
                     </td>
+
+
                       <td><img src="<%= food.rating_img_url %>"></a></td>
                       <% count += 1 %>
+
+                      <% if music.type == "album" %> <td><iframe src="https://embed.spotify.com/?uri=spotify%3AalbumA%<%=music.id%>&theme=white&view=coverart" width="300" height="80" frameborder="0" allowtransparency="true"></iframe></td>
+
+                      <% end %>
+                      <% if music.type == "track" %><td><iframe src="https://embed.spotify.com/?uri=spotify:track:<%=music.id%>" width="300" height="80" frameborder="0" allowtransparency="true"></iframe></td>
+                      <% track << music.id %>
+                      <% end %>
+                      <% if music.type == "artist" %><td><iframe src="https://embed.spotify.com/?uri=spotify:track:<%=music.id%>" width="300" height="80" frameborder="0" allowtransparency="true"></iframe></td>
+                                                      <td><iframe src="https://embed.spotify.com/follow/1/?uri=spotify:artist:<%=music.id%>&size=detail&theme=dark" width="300" height="80" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe></td>
+                      <% end %>
                     </tr>
+
                   <% end %>
+                  <script>
+                  function changeImage(id) {
+                      var image = document.getElementById(id);
+                      if (image.src.match("most")) {
+                          image.src = "http://image.shutterstock.com/display_pic_with_logo/299362/278332370/stock-vector-heart-with-plus-cross-symbol-as-heart-health-or-favorite-icon-278332370.jpg";
+                          image.value = "favorite"
+                          // $.ajax({
+                          //            url: "/delete_post/",
+                          //            type: "POST",
+                          //            data: {'value':id},
+                          //            success: function(response) {
+                          //            },
+                          //
+                          //        });
+
+
+                          var suggestion = {suggestion: id};
+                          $.ajax({
+                              type: "POST",
+                              data :JSON.stringify(suggestion),
+                              url: "https://tunes-takeout-api.herokuapp.com/v1/users/<%=current_user.id%>/favorites",
+                              contentType: "application/json",
+                              Accept: "application/json",
+                              dataType: 'text'
+
+                          });
+                      } else {
+                          image.src = "http://thumb7.shutterstock.com/display_pic_with_logo/1280533/200698931/stock-vector-most-listened-favorite-icon-200698931.jpg";
+                          image.value = "unfavorite"
+                          $.ajax({
+                              type: "DELETE",
+                              data :JSON.stringify(suggestion),
+                              url: "https://tunes-takeout-api.herokuapp.com/v1/users/<%=current_user.id%>/favorites",
+                              contentType: "application/json",
+                              Accept: "application/json",
+                              dataType: 'text'
+                          });
+
+                      }
+                  }
+                  </script>
+
                 </tbody>
               </table>
             </div>
@@ -156,6 +236,9 @@
 
         <div class="tab-pane fade in" id="tab3">
           <h3>This is tab 3</h3>
+          <% track = track.join(",") %>
+          <iframe src="https://embed.spotify.com/?uri=spotify:trackset:PREFEREDTITLE:<%=track%>" frameborder="0" allowtransparency="true"></iframe>
+
         </div>
       </div>
     </div>

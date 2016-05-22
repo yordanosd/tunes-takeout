@@ -1,4 +1,6 @@
 require "httparty"
+require "net/http"
+# require "uri"
 
 module TunesTakeout
 
@@ -23,11 +25,16 @@ module TunesTakeout
     data.map!{|suggestion| TunesTakeout.search_suggestions_by(suggestion)}
   end
 
-  def self.user_suggestion(user_id, suggestion)
-    uri = URI(BASE_URL + "/v1/users/#{suggestion}/favorites")
-    res = Net::HTTP.post_form(uri, "suggestion" => suggestion)
-    puts res.body
-    data = HTTParty.post(BASE_URL + "/v1/users/#{user_id}/favorites").parsed_response
+  def self.user_suggestion(user_id, suggestion_id)
+    uri = URI(BASE_URL + "/v1/users/#{user_id}/favorites")
+    response = HTTParty.post(uri, :body => {"suggestion":"#{suggestion_id}"}.to_json,
+                                  :headers => { 'Content-Type' => 'application/json', 'Accept' => 'application/json'} )
+
+    if response.response.code == "201"
+      "favorite"
+    else
+      "not saved"
+    end
   end
 
 end

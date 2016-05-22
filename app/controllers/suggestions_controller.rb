@@ -4,7 +4,7 @@ class SuggestionsController < ApplicationController
   end
 
   def search
-    # @result = TunesTakeout.search_results(params["search"])
+    @result = TunesTakeout.search_results(params["search"])
     redirect_to user_path(id: params["id"], suggestions_search: params["search"])
   end
 

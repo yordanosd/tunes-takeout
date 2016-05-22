@@ -90,6 +90,55 @@
         <div class="tab-pane fade in" id="tab2">
           <h3>This is tab 2</h3>
 
+
+          <div class="profile-content">
+            <h3></h2>
+            <table class="table table-striped">
+              <thead>
+                <tr class = "header">
+                  <th>Ranking </th>
+                  <th class = "header">Music</th>
+                  <th class = "header">Release Date</th>
+                </tr>
+              </thead>
+              <tbody class="table-body">
+                <% @result.each do |suggestion| %>
+                  <% music = Music.find(suggestion["music_type"].capitalize, suggestion["music_id"]) %>
+                  <% food = Food.yelp_find_by_business(suggestion["food_id"]) %>
+
+                  <tr>
+                    <td class="ranking"><%= count %> </td>
+                    <td class="image">
+                      <div class="album-picture">
+                        <% album_picture = music.images if music.type == "album" %>
+                        <% album_picture = music.images if music.type == "artist" %>
+                        <% album_picture = music.album.images if music.type == "track" %>
+
+                        <%= link_to( image_tag(Music.picture?(album_picture)), image_path( music.external_urls["spotify"] )) %>
+                        <div class="media-body">
+                          <span class="title"><%= music.name%></span>
+                        </div>
+                      </div>
+                    </td>
+                    <td class="image">
+                    <div class="album-picture">
+
+
+                      <%= link_to( image_tag(food.image_url), image_path(food.url)) %>
+                      <div class="media-body">
+                        <span class="title"><%= food.name%></span>
+                      </div>
+                    </div>
+                  </td>
+                    <td><img src="<%= food.rating_img_url %>"></a></td>
+                    <% count += 1 %>
+                  </tr>
+                <% end %>
+              </tbody>
+            </table>
+          </div>
+
+
         </div>
         <div class="tab-pane fade in" id="tab3">
           <h3>This is tab 3</h3>
