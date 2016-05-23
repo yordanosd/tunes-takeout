@@ -89,39 +89,28 @@
                     <tr>
                       <td class="ranking"><%= count %> </td>
                       <td><img id="<%=suggestion["music_id"]%>" onclick="changeImage('<%=@id_value%>')" src="http://thumb7.shutterstock.com/display_pic_with_logo/1280533/200698931/stock-vector-most-listened-favorite-icon-200698931.jpg" value = "" width="60%" ></td>
-                      <td class="image">
-                      <div class="album-picture">
-                          <a href="<%=music.external_urls["spotify"]%>"><img src="<%= Music.picture?(album_picture) %>" width="20%"></a>
-                        <div class="media-body">
-                          <span class="title"><%= music.name%></span>
-                        </div>
-                      </div>
-                    </td>
-                      <td class="image">
-                      <div class="album-picture">
-                        <a href="<%=food.url%>"><img src="<%= food.image_url %>" width="20%"></a>
-                        <div class="media-body">
-                          <span class="title"><%= food.name%></span>
-                        </div>
-                      </div>
-                    </td>
-
-
-                      <td><img src="<%= food.rating_img_url %>"></a></td>
                       <% count += 1 %>
-
                       <% if music.type == "album" %> <td><iframe src="https://embed.spotify.com/?uri=spotify%3AalbumA%<%=music.id%>&theme=white&view=coverart" width="300" height="80" frameborder="0" allowtransparency="true"></iframe></td>
+                        <% elsif music.type == "track" %><td><iframe src="https://embed.spotify.com/?uri=spotify:track:<%=music.id%>" width="300" height="80" frameborder="0" allowtransparency="true"></iframe></td>
+                          <% track << music.id %>
+                        <% else %><td class="artist"><iframe src="https://embed.spotify.com/follow/1/?uri=spotify:artist:<%=music.id%>&size=detail&theme=dark" width="300" height="80" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe></td>
+                      <% end %>
+                    </td>
+                    <td><img src="<%= food.image_url %>"></a></td>
+                    <% raise %>
 
-                      <% end %>
-                      <% if music.type == "track" %><td><iframe src="https://embed.spotify.com/?uri=spotify:track:<%=music.id%>" width="300" height="80" frameborder="0" allowtransparency="true"></iframe></td>
-                      <% track << music.id %>
-                      <% end %>
-                      <% if music.type == "artist" %><td><iframe src="https://embed.spotify.com/?uri=spotify:track:<%=music.id%>" width="300" height="80" frameborder="0" allowtransparency="true"></iframe></td>
-                                                      <td><iframe src="https://embed.spotify.com/follow/1/?uri=spotify:artist:<%=music.id%>&size=detail&theme=dark" width="300" height="80" scrolling="no" frameborder="0" style="border:none; overflow:hidden;" allowtransparency="true"></iframe></td>
-                      <% end %>
+                      <td>
+
+                        <div class=
+                        <div style="display:block;overflow:hidden;width:500px;height:80px;">
+                        <iframe style="margin-top:-114px;margin-left:-10px" height="200px" scrolling="no"
+                        src="<%= food.url%>" width="375px"></iframe></div>
+                      </td>
+
+
                     </tr>
-
                   <% end %>
+
                   <script>
                   function changeImage(id) {
                       var image = document.getElementById(id);
@@ -220,6 +209,8 @@
                         </div>
                       </div>
                     </td>
+                    <td>
+                      <span class="title"><%= food.name%></span>
                       <td><img src="<%= food.rating_img_url %>"></a></td>
                       <% count += 1 %>
                     </tr>
@@ -236,7 +227,7 @@
 
         <div class="tab-pane fade in" id="tab3">
           <h3>This is tab 3</h3>
-          <% track = track.join(",") %>
+          <% track = track.join(",") if !track.nil? %>
           <iframe src="https://embed.spotify.com/?uri=spotify:trackset:PREFEREDTITLE:<%=track%>" frameborder="0" allowtransparency="true"></iframe>
 
         </div>

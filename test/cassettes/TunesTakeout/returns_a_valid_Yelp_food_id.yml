@@ -1,0 +1,2510 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://tunes-takeout-api.herokuapp.com/v1/suggestions/top?limit=20
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 23 May 2016 03:43:08 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '474'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"href":"https://tunes-takeout-api.herokuapp.com/v1/suggestions/top?limit=20","suggestions":["Vz0KQY-RRwADboE-","Vz0KO4-RRwADbn9t","Vz0KNY-RRwADbn29","Vz0KQY-RRwADboEQ","Vz0KO4-RRwADbn9f","Vz0KO4-RRwADbn9c","Vz0KQY-RRwADboFP","Vz0KO4-RRwADbn9Q","Vz0KQY-RRwADboFN","Vz0KO4-RRwADbn9d","Vz0KO4-RRwADbn9x","Vz0KO4-RRwADbn9V","Vz0KO4-RRwADbn8Z","Vz0KO4-RRwADbn8x","Vz0KQY-RRwADboEq","Vz0KO4-RRwADbn9I","Vz0KO4-RRwADbn9U","Vz0KO4-RRwADbn85","Vz0KNY-RRwADbn2n","Vz0KO4-RRwADbn9b"]}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:08 GMT
+- request:
+    method: get
+    uri: https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KQY-RRwADboE-
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 23 May 2016 03:43:08 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '213'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"href":"https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KQY-RRwADboE-","suggestion":{"id":"Vz0KQY-RRwADboE-","food_id":"a-la-mode-pies-seattle","music_id":"1OYLLmDS0pJVFRbUo19vrG","music_type":"album"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:08 GMT
+- request:
+    method: get
+    uri: https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn9t
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 23 May 2016 03:43:08 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '221'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"href":"https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn9t","suggestion":{"id":"Vz0KO4-RRwADbn9t","food_id":"taqueria-la-pasadita-seattle-3","music_id":"0jEsVskTgxfybttvO9gnLK","music_type":"album"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:09 GMT
+- request:
+    method: get
+    uri: https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KNY-RRwADbn29
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 23 May 2016 03:43:09 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '212'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"href":"https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KNY-RRwADbn29","suggestion":{"id":"Vz0KNY-RRwADbn29","food_id":"sweet-iron-seattle-2","music_id":"0cOpQTKJdCEzz2wplnnyP6","music_type":"artist"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:09 GMT
+- request:
+    method: get
+    uri: https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KQY-RRwADboEQ
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 23 May 2016 03:43:09 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '224'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"href":"https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KQY-RRwADboEQ","suggestion":{"id":"Vz0KQY-RRwADboEQ","food_id":"old-school-frozen-custard-seattle","music_id":"1hq33mOCO3eLxvgBl0leqP","music_type":"track"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:10 GMT
+- request:
+    method: get
+    uri: https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn9f
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 23 May 2016 03:43:10 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '219'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"href":"https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn9f","suggestion":{"id":"Vz0KO4-RRwADbn9f","food_id":"cactus-restaurants-seattle-2","music_id":"20OmjCaPoZZg3hQ9iOKmrq","music_type":"album"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:10 GMT
+- request:
+    method: get
+    uri: https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn9c
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 23 May 2016 03:43:10 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '213'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"href":"https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn9c","suggestion":{"id":"Vz0KO4-RRwADbn9c","food_id":"el-taco-loco-seattle-2","music_id":"0qO38KC2CGDmNSOAb2rpzj","music_type":"track"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:10 GMT
+- request:
+    method: get
+    uri: https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KQY-RRwADboFP
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 23 May 2016 03:43:10 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '217'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"href":"https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KQY-RRwADboFP","suggestion":{"id":"Vz0KQY-RRwADboFP","food_id":"piroshky-piroshky-seattle","music_id":"13kFHFPF8dWNyK2yvgXf3S","music_type":"artist"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:11 GMT
+- request:
+    method: get
+    uri: https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn9Q
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 23 May 2016 03:43:11 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '213'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"href":"https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn9Q","suggestion":{"id":"Vz0KO4-RRwADbn9Q","food_id":"nacho-borracho-seattle","music_id":"4DWLyse4wDNthzOYvFZQfi","music_type":"album"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:11 GMT
+- request:
+    method: get
+    uri: https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KQY-RRwADboFN
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 23 May 2016 03:43:11 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '226'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"href":"https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KQY-RRwADboFN","suggestion":{"id":"Vz0KQY-RRwADboFN","food_id":"emerald-city-fish-and-chips-seattle","music_id":"18nhNX9AEFPINp1txOsaJS","music_type":"album"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:11 GMT
+- request:
+    method: get
+    uri: https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn9d
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 23 May 2016 03:43:12 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '209'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"href":"https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn9d","suggestion":{"id":"Vz0KO4-RRwADbn9d","food_id":"el-cabrito-seattle","music_id":"2rV6X8xj2EmDURLce7ZH0Y","music_type":"track"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:12 GMT
+- request:
+    method: get
+    uri: https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn9x
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 23 May 2016 03:43:12 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '211'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"href":"https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn9x","suggestion":{"id":"Vz0KO4-RRwADbn9x","food_id":"el-camion-seattle-13","music_id":"28CkJzoE5LBWJpzQr5g0f4","music_type":"album"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:12 GMT
+- request:
+    method: get
+    uri: https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn9V
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 23 May 2016 03:43:12 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '217'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"href":"https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn9V","suggestion":{"id":"Vz0KO4-RRwADbn9V","food_id":"taqueria-el-antojo-seattle","music_id":"3i3f6NmMLCwSOn0rwzKa8y","music_type":"track"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:12 GMT
+- request:
+    method: get
+    uri: https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn8Z
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 23 May 2016 03:43:12 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '215'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"href":"https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn8Z","suggestion":{"id":"Vz0KO4-RRwADbn8Z","food_id":"bebas-and-amigos-seattle","music_id":"2IO61W1ZRIwpWUXiO6AAxJ","music_type":"album"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:13 GMT
+- request:
+    method: get
+    uri: https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn8x
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 23 May 2016 03:43:13 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '223'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"href":"https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn8x","suggestion":{"id":"Vz0KO4-RRwADbn8x","food_id":"blue-water-taco-grill-seattle-14","music_id":"1pujwuePmCgDFQY32P5elo","music_type":"album"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:13 GMT
+- request:
+    method: get
+    uri: https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KQY-RRwADboEq
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 23 May 2016 03:43:13 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '222'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"href":"https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KQY-RRwADboEq","suggestion":{"id":"Vz0KQY-RRwADboEq","food_id":"le-panier-french-bakery-seattle","music_id":"1YPtiR8vL7n29XpP0dTmGc","music_type":"album"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:14 GMT
+- request:
+    method: get
+    uri: https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn9I
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 23 May 2016 03:43:14 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '228'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"href":"https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn9I","suggestion":{"id":"Vz0KO4-RRwADbn9I","food_id":"memos-mexican-food-restaurant-seattle","music_id":"4OpGuePj1YVgTIXi2WLHVn","music_type":"album"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:14 GMT
+- request:
+    method: get
+    uri: https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn9U
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 23 May 2016 03:43:14 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '216'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"href":"https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn9U","suggestion":{"id":"Vz0KO4-RRwADbn9U","food_id":"malenas-taco-shop-seattle","music_id":"1mFWLJb6bVP4IroYrJVV5R","music_type":"album"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:14 GMT
+- request:
+    method: get
+    uri: https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn85
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 23 May 2016 03:43:15 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '229'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"href":"https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn85","suggestion":{"id":"Vz0KO4-RRwADbn85","food_id":"taqueria-costa-alegre-taco-bus-seattle","music_id":"4QB9QRThl5plfwJmcpFtcp","music_type":"track"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:15 GMT
+- request:
+    method: get
+    uri: https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KNY-RRwADbn2n
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 23 May 2016 03:43:15 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '222'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"href":"https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KNY-RRwADbn2n","suggestion":{"id":"Vz0KNY-RRwADbn2n","food_id":"crepe-cafe-and-wine-bar-seattle","music_id":"18XycAkvLpkbHoWqGCgIwN","music_type":"track"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:15 GMT
+- request:
+    method: get
+    uri: https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn9b
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+      User-Agent:
+      - Ruby
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - Cowboy
+      Date:
+      - Mon, 23 May 2016 03:43:15 GMT
+      Connection:
+      - keep-alive
+      Content-Type:
+      - application/json
+      X-Content-Type-Options:
+      - nosniff
+      Content-Length:
+      - '211'
+      Via:
+      - 1.1 vegur
+    body:
+      encoding: UTF-8
+      string: '{"href":"https://tunes-takeout-api.herokuapp.com/v1/suggestions/Vz0KO4-RRwADbn9b","suggestion":{"id":"Vz0KO4-RRwADbn9b","food_id":"tacos-chukis-seattle","music_id":"0AyB84D5n6ISyfZMA84NML","music_type":"album"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:15 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v2/business/a-la-mode-pies-seattle
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Authorization:
+      - OAuth oauth_consumer_key="ac7g1t3S2ra7hSKSzUnBJA", oauth_nonce="dd1de345c0a84aa2dac065932125a90f",
+        oauth_signature="ayMcN1zl74ijAPS1kPdNGmBo%2FEQ%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1463974996", oauth_token="0R49YaxmEebNFcNdEimzhyRLg463crzi",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 23 May 2016 03:43:16 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d659393d3b0b9a310c31f88d81b7a674e1463974996; expires=Tue, 23-May-17
+        03:43:16 GMT; path=/; domain=.yelp.com; HttpOnly
+      - bse=cc3e8bc96ed67489f420ca160cfd048e; Domain=.yelp.com; Path=/; HttpOnly
+      - yuv=ks8ce0SL8_i4dt1_tauaTlb_WJ1JiieSNrv2wl0H-xEZFt_O8fO9yTG4OX9rXkw2-yfeZ2x96br6GJIraAlGm3EvB7CnklF8;
+        Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Sun, 18-May-2036 03:43:16
+        GMT
+      X-Node:
+      - 10-64-176-53-uswest1bprod
+      - api_com
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store, private
+      Expires:
+      - Mon, 23 May 2016 03:43:16 GMT
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding,User-Agent
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-64-16-235-uswest1bprod
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a7580adfd241baf-SEA
+    body:
+      encoding: ASCII-8BIT
+      string: '{"is_claimed": true, "rating": 4.5, "mobile_url": "http://m.yelp.com/biz/a-la-mode-pies-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+        "review_count": 246, "name": "A la Mode Pies", "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+        "url": "http://www.yelp.com/biz/a-la-mode-pies-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "categories": [["Desserts", "desserts"], ["Bakeries", "bakeries"]], "menu_date_updated":
+        1463849133, "reviews": [{"rating": 5, "excerpt": "always has a great selection
+        of pies. i can''t say i''m the biggest fan of the cream-based pies, but they
+        have my favorite strawberry rhubarb IN THE WHOLE...", "time_created": 1462229508,
+        "rating_image_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png",
+        "rating_image_small_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png",
+        "user": {"image_url": "http://s3-media1.fl.yelpcdn.com/photo/FpNCYQu1Wt2PhvPf_bblJw/ms.jpg",
+        "id": "FjWywtVqGv-rMKZeRGakWg", "name": "connie k."}, "rating_image_large_url":
+        "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png",
+        "id": "9cMGUKICziH1mqRoep5wOg"}], "phone": "2063833796", "snippet_text": "always
+        has a great selection of pies. i can''t say i''m the biggest fan of the cream-based
+        pies, but they have my favorite strawberry rhubarb IN THE WHOLE...", "image_url":
+        "https://s3-media1.fl.yelpcdn.com/bphoto/oBCbMgPJnxZVBfk2-5n9Yw/ms.jpg", "snippet_image_url":
+        "http://s3-media1.fl.yelpcdn.com/photo/FpNCYQu1Wt2PhvPf_bblJw/ms.jpg", "display_phone":
+        "+1-206-383-3796", "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+        "menu_provider": "single_platform", "id": "a-la-mode-pies-seattle", "is_closed":
+        false, "location": {"city": "Seattle", "display_address": ["5821 Phinney Ave
+        N", "Phinney Ridge", "Seattle, WA 98103"], "geo_accuracy": 8.0, "neighborhoods":
+        ["Phinney Ridge"], "postal_code": "98103", "country_code": "US", "address":
+        ["5821 Phinney Ave N"], "coordinate": {"latitude": 47.6717, "longitude": -122.35467},
+        "state_code": "WA"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:16 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v2/business/taqueria-la-pasadita-seattle-3
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Authorization:
+      - OAuth oauth_consumer_key="ac7g1t3S2ra7hSKSzUnBJA", oauth_nonce="1d8f41de3b6d6ca05bd270e5145d33a8",
+        oauth_signature="bcR5StckyEtgjfayADtgk%2FSl%2Fy4%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1463974996", oauth_token="0R49YaxmEebNFcNdEimzhyRLg463crzi",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 23 May 2016 03:43:16 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d78d90a3366be80d6d9e7c230a4d34f831463974996; expires=Tue, 23-May-17
+        03:43:16 GMT; path=/; domain=.yelp.com; HttpOnly
+      - bse=375b3eb997b055ff2fea57afe72fad25; Domain=.yelp.com; Path=/; HttpOnly
+      - yuv=_5WNuK0QKbvlqLquOSGcs3uHWcd-wgab64TOvRak9dERUeIQS_NhuezwW1DlaMRIuC270l71OwS8hcO7deaG3_QH-MAFkJkC;
+        Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Sun, 18-May-2036 03:43:16
+        GMT
+      X-Node:
+      - api_com
+      - web105-r10-sfo2
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store, private
+      Expires:
+      - Mon, 23 May 2016 03:43:16 GMT
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding,User-Agent
+      X-Mode:
+      - ro
+      X-Proxied:
+      - extlb7-r10-sfo2
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a7580aff8422aa3-SEA
+    body:
+      encoding: ASCII-8BIT
+      string: '{"is_claimed": false, "rating": 4.5, "mobile_url": "http://m.yelp.com/biz/taqueria-la-pasadita-seattle-3?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+        "review_count": 86, "name": "Taqueria La Pasadita", "rating_img_url_small":
+        "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+        "url": "http://www.yelp.com/biz/taqueria-la-pasadita-seattle-3?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "categories": [["Mexican", "mexican"], ["Food Trucks", "foodtrucks"], ["Sandwiches",
+        "sandwiches"]], "reviews": [{"rating": 5, "excerpt": "5 stars for being ON
+        POINT: Price, flavor, freshness, quickness and location could not be better.
+        I ordered a chicken torta (my first torta) and absolutely...", "time_created":
+        1457037917, "rating_image_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png",
+        "rating_image_small_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png",
+        "user": {"image_url": "http://s3-media4.fl.yelpcdn.com/photo/Zv01uYDjPuHFuRn08J5esg/ms.jpg",
+        "id": "KSe5jVHoLRKY5fXMP7EvCg", "name": "Abby S."}, "rating_image_large_url":
+        "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png",
+        "id": "LGlD8e65ybSUq1ee6wIq-w"}], "snippet_text": "5 stars for being ON POINT:
+        Price, flavor, freshness, quickness and location could not be better. I ordered
+        a chicken torta (my first torta) and absolutely...", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/Lzhhm3cHuQ3dgXvFl0_TpA/ms.jpg",
+        "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/Zv01uYDjPuHFuRn08J5esg/ms.jpg",
+        "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+        "id": "taqueria-la-pasadita-seattle-3", "is_closed": false, "location": {"city":
+        "Seattle", "display_address": ["2143 N Northgate Way", "In the 76 Parking
+        Lot", "Licton Springs", "Seattle, WA 98133"], "geo_accuracy": 8.0, "neighborhoods":
+        ["Licton Springs", "Haller Lake"], "postal_code": "98133", "country_code":
+        "US", "address": ["2143 N Northgate Way", "In the 76 Parking Lot"], "coordinate":
+        {"latitude": 47.7086187154055, "longitude": -122.332225888968}, "state_code":
+        "WA"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:16 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v2/business/sweet-iron-seattle-2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Authorization:
+      - OAuth oauth_consumer_key="ac7g1t3S2ra7hSKSzUnBJA", oauth_nonce="9c4450cd6952ca0920964748993dfd1e",
+        oauth_signature="ygQ48McVWmOBPQxjnkJm6xO2W%2Bw%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1463974996", oauth_token="0R49YaxmEebNFcNdEimzhyRLg463crzi",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 23 May 2016 03:43:17 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d49bac28d3377fcbd566912ad0984b7de1463974996; expires=Tue, 23-May-17
+        03:43:16 GMT; path=/; domain=.yelp.com; HttpOnly
+      - bse=b928f69118ddbd4b94a1edef4a084c96; Domain=.yelp.com; Path=/; HttpOnly
+      - yuv=2ugL3tHLqUzTG4OhR9s-1yOcFVKVBYqTYOZOfwQCYCWMHWHV-HOguX6N_pJGy-tmQTsZPXu6qcZYInT90hcOLar3g-TwyWZL;
+        Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Sun, 18-May-2036 03:43:16
+        GMT
+      X-Node:
+      - api_com
+      - internalapi2-r3-sfo2
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store, private
+      Expires:
+      - Mon, 23 May 2016 03:43:16 GMT
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding,User-Agent
+      X-Mode:
+      - ro
+      X-Proxied:
+      - extlb7-r10-sfo2
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a7580b1ca282a61-SEA
+    body:
+      encoding: ASCII-8BIT
+      string: '{"is_claimed": true, "rating": 4.0, "mobile_url": "http://m.yelp.com/biz/sweet-iron-seattle-2?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+        "review_count": 900, "name": "Sweet Iron", "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+        "url": "http://www.yelp.com/biz/sweet-iron-seattle-2?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "categories": [["Belgian", "belgian"], ["Breakfast \u0026 Brunch", "breakfast_brunch"],
+        ["Waffles", "waffles"]], "menu_date_updated": 1454603144, "reviews": [{"rating":
+        4, "excerpt": "REALLY GOOD WAFFLE.   Very nice people.\n\nThe whole joint
+        seats 10 people, 2 seat configurations.\n\nA bit spendy.", "time_created":
+        1463757953, "rating_image_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+        "rating_image_small_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+        "user": {"image_url": "http://s3-media3.fl.yelpcdn.com/photo/8633K5SkkUUIIy4aY2Xzww/ms.jpg",
+        "id": "F7Y2b3X5qfTshxqROkHCcg", "name": "Christine T."}, "rating_image_large_url":
+        "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+        "id": "hd0jiO4ogMOIUz1DGDt3_g"}], "phone": "2066823336", "snippet_text": "REALLY
+        GOOD WAFFLE.   Very nice people.\n\nThe whole joint seats 10 people, 2 seat
+        configurations.\n\nA bit spendy.", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/dwsZbLq4bJTh0--Z-Is6bw/ms.jpg",
+        "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/8633K5SkkUUIIy4aY2Xzww/ms.jpg",
+        "display_phone": "+1-206-682-3336", "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+        "menu_provider": "single_platform", "id": "sweet-iron-seattle-2", "is_closed":
+        false, "location": {"cross_streets": "Seneca St \u0026 University St", "city":
+        "Seattle", "display_address": ["1200 3rd Ave", "Ste 110", "Downtown", "Seattle,
+        WA 98101"], "geo_accuracy": 9.5, "neighborhoods": ["Downtown"], "postal_code":
+        "98101", "country_code": "US", "address": ["1200 3rd Ave", "Ste 110"], "coordinate":
+        {"latitude": 47.6074658149595, "longitude": -122.33559721902999}, "state_code":
+        "WA"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:16 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v2/business/old-school-frozen-custard-seattle
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Authorization:
+      - OAuth oauth_consumer_key="ac7g1t3S2ra7hSKSzUnBJA", oauth_nonce="e57601b3325b314c8f274261a6dd6bdc",
+        oauth_signature="ZNc1zB4bjX39%2FyxC3RSMLy7P0Xc%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1463974996", oauth_token="0R49YaxmEebNFcNdEimzhyRLg463crzi",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 23 May 2016 03:43:17 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d0efe791fe020cf2fe4ce2330deb929ef1463974997; expires=Tue, 23-May-17
+        03:43:17 GMT; path=/; domain=.yelp.com; HttpOnly
+      - bse=26006662b6ffde14c2d49dc5ae60a59a; Domain=.yelp.com; Path=/; HttpOnly
+      - yuv=EsQJJcioZOIAkL4eru0EGFDubbNnjVFzNHVnkk3nra3mHurrqaO3IWD1sjKe2idFW1O7WZxPivry_7wUyxnUhqov36WoUu0a;
+        Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Sun, 18-May-2036 03:43:17
+        GMT
+      X-Node:
+      - api_com
+      - web13-r2-sfo2
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store, private
+      Expires:
+      - Mon, 23 May 2016 03:43:17 GMT
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding,User-Agent
+      X-Mode:
+      - ro
+      X-Proxied:
+      - extlb8-r11-sfo2
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a7580b3bf4d2aa3-SEA
+    body:
+      encoding: ASCII-8BIT
+      string: '{"is_claimed": true, "rating": 4.0, "mobile_url": "http://m.yelp.com/biz/old-school-frozen-custard-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+        "review_count": 446, "name": "Old School Frozen Custard", "rating_img_url_small":
+        "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+        "url": "http://www.yelp.com/biz/old-school-frozen-custard-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "categories": [["Ice Cream \u0026 Frozen Yogurt", "icecream"]], "reviews":
+        [{"rating": 5, "excerpt": "Came in on a Monday night! My friend and I were
+        the only people there. We got a \"Muddy Buddy\" to share.\n\nThe Muddy Buddy
+        features a brownie, two scoops of...", "time_created": 1452059845, "rating_image_url":
+        "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png",
+        "rating_image_small_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png",
+        "user": {"image_url": "http://s3-media1.fl.yelpcdn.com/photo/PwEnw7C6BDD7vD8uMFLr9A/ms.jpg",
+        "id": "OwacDy9M5SuixTOaXyvjIQ", "name": "Jessie Y."}, "rating_image_large_url":
+        "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png",
+        "id": "ohVyja9ZBpYTIhriFOU_2w"}], "phone": "2063242586", "snippet_text": "Came
+        in on a Monday night! My friend and I were the only people there. We got a
+        \"Muddy Buddy\" to share.\n\nThe Muddy Buddy features a brownie, two scoops
+        of...", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/sscoy1-vX8AirNdO8-v-7g/ms.jpg",
+        "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/PwEnw7C6BDD7vD8uMFLr9A/ms.jpg",
+        "display_phone": "+1-206-324-2586", "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+        "id": "old-school-frozen-custard-seattle", "is_closed": false, "location":
+        {"city": "Seattle", "display_address": ["1316 E Pike St", "Capitol Hill",
+        "Seattle, WA 98122"], "geo_accuracy": 8.0, "neighborhoods": ["Capitol Hill"],
+        "postal_code": "98122", "country_code": "US", "address": ["1316 E Pike St"],
+        "coordinate": {"latitude": 47.614356, "longitude": -122.314613}, "state_code":
+        "WA"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:17 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v2/business/cactus-restaurants-seattle-2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Authorization:
+      - OAuth oauth_consumer_key="ac7g1t3S2ra7hSKSzUnBJA", oauth_nonce="8bcdf6138b68b935a5685d4d55ee808c",
+        oauth_signature="PHRmpuKmho3wsuMrp0ePqyNAGwQ%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1463974997", oauth_token="0R49YaxmEebNFcNdEimzhyRLg463crzi",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 23 May 2016 03:43:17 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d917ead919de676ecdbfe4cce56ccb36d1463974997; expires=Tue, 23-May-17
+        03:43:17 GMT; path=/; domain=.yelp.com; HttpOnly
+      - bse=88920fed16778b15d48eca3968fe296e; Domain=.yelp.com; Path=/; HttpOnly
+      - yuv=ztssCRr2uHtweMhI3oUZECetUc5wJlvTVqWPbnjAwEEGe8uV46MHgI56Y9lHCKdzvS0pFpbxg7ugdi3ZH6-p9iFjnB80cxNC;
+        Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Sun, 18-May-2036 03:43:17
+        GMT
+      X-Node:
+      - 10-64-147-195-uswest1bprod
+      - api_com
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store, private
+      Expires:
+      - Mon, 23 May 2016 03:43:17 GMT
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding,User-Agent
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-64-16-56-uswest1bprod
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a7580b61ce41b97-SEA
+    body:
+      encoding: ASCII-8BIT
+      string: '{"is_claimed": true, "rating": 4.0, "mobile_url": "http://m.yelp.com/biz/cactus-restaurants-seattle-2?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+        "review_count": 510, "name": "Cactus Restaurants", "rating_img_url_small":
+        "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+        "url": "http://www.yelp.com/biz/cactus-restaurants-seattle-2?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "categories": [["Tex-Mex", "tex-mex"], ["Mexican", "mexican"]], "reviews":
+        [{"rating": 5, "excerpt": "This is by far the best place to grab fresh Mexican
+        food in West Seattle. Also, out of any place in Seattle proper, this is the
+        best view. No matter where...", "time_created": 1462942411, "rating_image_url":
+        "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png",
+        "rating_image_small_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png",
+        "user": {"image_url": "http://s3-media1.fl.yelpcdn.com/photo/M2IpNAx0SmrdSQPDtFho3w/ms.jpg",
+        "id": "0XZ4Ro6zXrHaPB8V2_J8gw", "name": "Jorden D."}, "rating_image_large_url":
+        "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png",
+        "id": "VS6MFLLvXWnpEeBsNSC8-Q"}], "phone": "2069336000", "snippet_text": "This
+        is by far the best place to grab fresh Mexican food in West Seattle. Also,
+        out of any place in Seattle proper, this is the best view. No matter where...",
+        "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/Z6SzlCzWEAk_AKJU2aAQkg/ms.jpg",
+        "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/M2IpNAx0SmrdSQPDtFho3w/ms.jpg",
+        "display_phone": "+1-206-933-6000", "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+        "id": "cactus-restaurants-seattle-2", "is_closed": false, "location": {"cross_streets":
+        "S 62nd Ave \u0026 S 63rd Ave", "city": "Seattle", "display_address": ["2820
+        Alki Ave SW", "Alki", "Seattle, WA 98116"], "geo_accuracy": 9.5, "neighborhoods":
+        ["Alki"], "postal_code": "98116", "country_code": "US", "address": ["2820
+        Alki Ave SW"], "coordinate": {"latitude": 47.5782800784475, "longitude": -122.413087476886},
+        "state_code": "WA"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:17 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v2/business/el-taco-loco-seattle-2
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Authorization:
+      - OAuth oauth_consumer_key="ac7g1t3S2ra7hSKSzUnBJA", oauth_nonce="95af70b2352879ebc6c77358e32fb7a3",
+        oauth_signature="Gb%2FsMwjUruhB%2F395pJBcOFY4l1s%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1463974997", oauth_token="0R49YaxmEebNFcNdEimzhyRLg463crzi",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 23 May 2016 03:43:17 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d73d8b270f037126ba07c834f7b2134b61463974997; expires=Tue, 23-May-17
+        03:43:17 GMT; path=/; domain=.yelp.com; HttpOnly
+      - bse=335d2986dd2dbcc5171c092bc4db248c; Domain=.yelp.com; Path=/; HttpOnly
+      - yuv=3TR7HiKmICI_mJVoHkoNBAx1OzWi-IwTvnjS4J9HjvtDN3SfeddHEBzTJpBqr9U4EkJzVCRK_tqNe2dDeVTa9zWaQAcZ0e5M;
+        Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Sun, 18-May-2036 03:43:17
+        GMT
+      X-Node:
+      - api_com
+      - web54-r5-sfo2
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store, private
+      Expires:
+      - Mon, 23 May 2016 03:43:17 GMT
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding,User-Agent
+      X-Mode:
+      - ro
+      X-Proxied:
+      - extlb7-r10-sfo2
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a7580b7c8430c47-SEA
+    body:
+      encoding: ASCII-8BIT
+      string: '{"is_claimed": true, "rating": 4.0, "mobile_url": "http://m.yelp.com/biz/el-taco-loco-seattle-2?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+        "review_count": 34, "name": "El Taco Loco", "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+        "url": "http://www.yelp.com/biz/el-taco-loco-seattle-2?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "categories": [["Mexican", "mexican"], ["Food Trucks", "foodtrucks"], ["Sandwiches",
+        "sandwiches"]], "menu_date_updated": 1456382446, "reviews": [{"rating": 4,
+        "excerpt": "Checked in at their new location on NW 80th Street. Same great
+        food, but no more outdoor dining room; just one exposed table.", "time_created":
+        1461097840, "rating_image_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+        "rating_image_small_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+        "user": {"image_url": "https://s3-media4.fl.yelpcdn.com/assets/srv0/yelp_styleguide/cc4afe21892e/assets/img/default_avatars/user_medium_square.png",
+        "id": "msGuL2ucfSzUOlYnR8x0WA", "name": "Randolph F."}, "rating_image_large_url":
+        "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+        "id": "j6-m7YR13wRX-yLj230JWg"}], "phone": "2063715204", "snippet_text": "Checked
+        in at their new location on NW 80th Street. Same great food, but no more outdoor
+        dining room; just one exposed table.", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/mbxEr9GkyXJnBeqDgVRV5A/ms.jpg",
+        "snippet_image_url": "https://s3-media4.fl.yelpcdn.com/assets/srv0/yelp_styleguide/cc4afe21892e/assets/img/default_avatars/user_medium_square.png",
+        "display_phone": "+1-206-371-5204", "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+        "menu_provider": "single_platform", "id": "el-taco-loco-seattle-2", "is_closed":
+        false, "location": {"cross_streets": "80th St \u0026 77th St", "city": "Seattle",
+        "display_address": ["7758 15th Ave NW", "Phinney Ridge", "Seattle, WA 98117"],
+        "geo_accuracy": 9.5, "neighborhoods": ["Phinney Ridge", "Ballard", "Loyal
+        Heights"], "postal_code": "98117", "country_code": "US", "address": ["7758
+        15th Ave NW"], "coordinate": {"latitude": 47.6867944892581, "longitude": -122.376731641138},
+        "state_code": "WA"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:17 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v2/business/piroshky-piroshky-seattle
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Authorization:
+      - OAuth oauth_consumer_key="ac7g1t3S2ra7hSKSzUnBJA", oauth_nonce="d5e00cb2746c7b31d8e49d8bd2b5b58a",
+        oauth_signature="rYRHacjOYPNC9G6z9346VO05TR0%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1463974997", oauth_token="0R49YaxmEebNFcNdEimzhyRLg463crzi",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 23 May 2016 03:43:18 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d73d8b270f037126ba07c834f7b2134b61463974997; expires=Tue, 23-May-17
+        03:43:17 GMT; path=/; domain=.yelp.com; HttpOnly
+      - bse=3802a3b1cb772324d0b7bb30850a5daf; Domain=.yelp.com; Path=/; HttpOnly
+      - yuv=ZMWNrsvpRUK-yKNUJ5yPMo7wa0wFZRZEtQb8oS0r0v7vPtIb-bFKR90BAq_XPNcDy8IIDIMnb82pYWGIzaMcdKMeVgnC1ytt;
+        Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Sun, 18-May-2036 03:43:17
+        GMT
+      X-Node:
+      - api_com
+      - web101-r10-sfo2
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store, private
+      Expires:
+      - Mon, 23 May 2016 03:43:17 GMT
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding,User-Agent
+      X-Mode:
+      - ro
+      X-Proxied:
+      - extlb7-r10-sfo2
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a7580b9291d0c47-SEA
+    body:
+      encoding: ASCII-8BIT
+      string: '{"is_claimed": true, "rating": 4.5, "mobile_url": "http://m.yelp.com/biz/piroshky-piroshky-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+        "review_count": 3586, "name": "Piroshky Piroshky", "rating_img_url_small":
+        "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+        "url": "http://www.yelp.com/biz/piroshky-piroshky-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "categories": [["Bakeries", "bakeries"], ["Russian", "russian"]], "menu_date_updated":
+        1441924369, "reviews": [{"rating": 5, "excerpt": "What can I say... this place
+        never lets me down. The piroshkis are well worth the wait but the typical
+        line out front always moves fast. \n\nThe beef and...", "time_created": 1463937795,
+        "rating_image_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png",
+        "rating_image_small_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png",
+        "user": {"image_url": "http://s3-media2.fl.yelpcdn.com/photo/4MQlFzjHIo1VtYP7JdQ3WA/ms.jpg",
+        "id": "6xzmrOlkmJK-FRjb8e4p4w", "name": "Sarah B."}, "rating_image_large_url":
+        "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png",
+        "id": "clNMa5wRmlAPzeBxc_wYpA"}], "phone": "2064416068", "snippet_text": "OMG
+        HAPPINESS IN A BUN. like literally\n\nMy friends and I came here two days
+        in a row just because we could. I loved the smoked salmon pate and the beef
+        and...", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/WH3A8SLkYwgJQU9JPeHcgg/ms.jpg",
+        "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/o5QvzFSAFVuH8aHl9Oqr9w/ms.jpg",
+        "display_phone": "+1-206-441-6068", "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+        "menu_provider": "single_platform", "id": "piroshky-piroshky-seattle", "is_closed":
+        false, "location": {"cross_streets": "Western Ave \u0026 Virginia St", "city":
+        "Seattle", "display_address": ["1908 Pike Pl", "Downtown", "Seattle, WA 98101"],
+        "geo_accuracy": 8.0, "neighborhoods": ["Downtown"], "postal_code": "98101",
+        "country_code": "US", "address": ["1908 Pike Pl"], "coordinate": {"latitude":
+        47.6099207997322, "longitude": -122.342521548271}, "state_code": "WA"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:18 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v2/business/nacho-borracho-seattle
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Authorization:
+      - OAuth oauth_consumer_key="ac7g1t3S2ra7hSKSzUnBJA", oauth_nonce="a5881ab53656027cd7d08140020dd29e",
+        oauth_signature="veNjOOZ5CQnJL99Rlp4M%2Blt0Sg0%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1463974998", oauth_token="0R49YaxmEebNFcNdEimzhyRLg463crzi",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 23 May 2016 03:43:18 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d432faacccde5358480b1d1bdd86602c51463974998; expires=Tue, 23-May-17
+        03:43:18 GMT; path=/; domain=.yelp.com; HttpOnly
+      - bse=aa248b6c71d047eb323594d8a76d3f9a; Domain=.yelp.com; Path=/; HttpOnly
+      - yuv=uang61SBcEPrGXSM1fozSEEv-rO5V00oJJom7A6vp58CIg-pFTrZ4TQhSLPrSVcIZKVXewmGMxW7KVwDVVpE0fs5-yxEKxmb;
+        Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Sun, 18-May-2036 03:43:18
+        GMT
+      X-Node:
+      - api_com
+      - web63-r7-sfo2
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store, private
+      Expires:
+      - Mon, 23 May 2016 03:43:18 GMT
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding,User-Agent
+      X-Mode:
+      - ro
+      X-Proxied:
+      - extlb7-r10-sfo2
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a7580ba9fff2a79-SEA
+    body:
+      encoding: ASCII-8BIT
+      string: '{"is_claimed": false, "rating": 3.5, "mobile_url": "http://m.yelp.com/biz/nacho-borracho-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "rating_img_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+        "review_count": 122, "name": "Nacho Borracho", "rating_img_url_small": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png",
+        "url": "http://www.yelp.com/biz/nacho-borracho-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "categories": [["Tex-Mex", "tex-mex"], ["Cocktail Bars", "cocktailbars"],
+        ["Mexican", "mexican"]], "menu_date_updated": 1447865990, "reviews": [{"rating":
+        5, "excerpt": "This is my favorite restaurant/bar in Cap Hill and one of my
+        favorite places in Seattle. The drinks are amazing and the food at Neon Taco
+        (food counter in...", "time_created": 1463789621, "rating_image_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png",
+        "rating_image_small_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png",
+        "user": {"image_url": "http://s3-media2.fl.yelpcdn.com/photo/UJvRA_A609pFrpzrWEcd6A/ms.jpg",
+        "id": "ORSlNCyP_XUuurfZEdMdXw", "name": "Ishea B."}, "rating_image_large_url":
+        "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png",
+        "id": "RZvB66UI-sxwrTWcS6KhCw"}], "phone": "2064662434", "snippet_text": "This
+        is definitely a neat place to check out. Came here on a Saturday night and
+        it was a little hard to find a place to sit. It''s a narrow spot with the
+        bar...", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/QP42eT4jfYyqcNbH1HWHiA/ms.jpg",
+        "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/KwvyaCq9E0kUjI7gksN6Ow/ms.jpg",
+        "display_phone": "+1-206-466-2434", "rating_img_url_large": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+        "menu_provider": "single_platform", "id": "nacho-borracho-seattle", "is_closed":
+        false, "location": {"cross_streets": "Olive Way \u0026 Thomas St", "city":
+        "Seattle", "display_address": ["209 Broadway E", "Capitol Hill", "Seattle,
+        WA 98102"], "geo_accuracy": 9.5, "neighborhoods": ["Capitol Hill"], "postal_code":
+        "98102", "country_code": "US", "address": ["209 Broadway E"], "coordinate":
+        {"latitude": 47.6199874, "longitude": -122.3208889}, "state_code": "WA"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:18 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v2/business/emerald-city-fish-and-chips-seattle
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Authorization:
+      - OAuth oauth_consumer_key="ac7g1t3S2ra7hSKSzUnBJA", oauth_nonce="f6418e6c43f6467504816a4bf855a6bc",
+        oauth_signature="jES4OLAgAWOdgmpLoabC%2B9jIZ%2Bo%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1463974998", oauth_token="0R49YaxmEebNFcNdEimzhyRLg463crzi",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 23 May 2016 03:43:18 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d432faacccde5358480b1d1bdd86602c51463974998; expires=Tue, 23-May-17
+        03:43:18 GMT; path=/; domain=.yelp.com; HttpOnly
+      - bse=8428c0a0daa0f2df5c21fac12dcec8fd; Domain=.yelp.com; Path=/; HttpOnly
+      - yuv=GOm2aOUqlO-IizhV6mjKVE3uZvveaqNW8ryKlS-TFVnhhdXSf9JY2npc2uOafKRVs-a9vW1P2BPh65pD7KyaaNcaq25OMNL6;
+        Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Sun, 18-May-2036 03:43:18
+        GMT
+      X-Node:
+      - api_com
+      - web5-r1-sfo2
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store, private
+      Expires:
+      - Mon, 23 May 2016 03:43:18 GMT
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding,User-Agent
+      X-Mode:
+      - ro
+      X-Proxied:
+      - extlb7-r10-sfo2
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a7580bc3abb2a79-SEA
+    body:
+      encoding: ASCII-8BIT
+      string: '{"is_claimed": true, "rating": 4.0, "mobile_url": "http://m.yelp.com/biz/emerald-city-fish-and-chips-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+        "review_count": 168, "name": "Emerald City Fish \u0026 Chips", "rating_img_url_small":
+        "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+        "url": "http://www.yelp.com/biz/emerald-city-fish-and-chips-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "categories": [["Fish \u0026 Chips", "fishnchips"], ["Seafood", "seafood"],
+        ["Sandwiches", "sandwiches"]], "menu_date_updated": 1461367203, "reviews":
+        [{"rating": 5, "excerpt": "Fast, delicious and very affordable. \n\nNot the
+        best in town but pretty damn good. \n\nThey have some really good deals on
+        cod and salmon. \n\nPlus there''s...", "time_created": 1458677353, "rating_image_url":
+        "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png",
+        "rating_image_small_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png",
+        "user": {"image_url": "http://s3-media2.fl.yelpcdn.com/photo/KAjjds8VQ7C9j_hqZaSZGw/ms.jpg",
+        "id": "zqZN7C6M0ybbHUclJttmlw", "name": "Matthew A."}, "rating_image_large_url":
+        "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png",
+        "id": "Dqv0NYNg5Wsu2T97oQJYwA"}], "phone": "2067603474", "snippet_text": "Fast,
+        delicious and very affordable. \n\nNot the best in town but pretty damn good.
+        \n\nThey have some really good deals on cod and salmon. \n\nPlus there''s...",
+        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/1HHsIopsUezmGi7fPR3NOw/ms.jpg",
+        "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/KAjjds8VQ7C9j_hqZaSZGw/ms.jpg",
+        "display_phone": "+1-206-760-3474", "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+        "menu_provider": "eat24", "id": "emerald-city-fish-and-chips-seattle", "is_closed":
+        false, "location": {"cross_streets": "Charlestown St \u0026 S 33rd Ave", "city":
+        "Seattle", "display_address": ["3756 Rainier Ave S", "Mount Baker", "Seattle,
+        WA 98144"], "geo_accuracy": 8.0, "neighborhoods": ["Mount Baker"], "postal_code":
+        "98144", "country_code": "US", "address": ["3756 Rainier Ave S"], "coordinate":
+        {"latitude": 47.57002, "longitude": -122.29063}, "state_code": "WA"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:18 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v2/business/el-cabrito-seattle
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Authorization:
+      - OAuth oauth_consumer_key="ac7g1t3S2ra7hSKSzUnBJA", oauth_nonce="9a9bc942b0d1152ad7b0fd5e9b1aef82",
+        oauth_signature="6XxRfnCOnDzTEHkCe9i1azQq%2Bps%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1463974998", oauth_token="0R49YaxmEebNFcNdEimzhyRLg463crzi",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 23 May 2016 03:43:18 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=de3f1d60c09482caf1859523022c491951463974998; expires=Tue, 23-May-17
+        03:43:18 GMT; path=/; domain=.yelp.com; HttpOnly
+      - bse=b7f7ed61147a6a85f9c7b166e9c4b829; Domain=.yelp.com; Path=/; HttpOnly
+      - yuv=qWuv1q97dwiGovSETi5_0OaxhUCZ_vRcEbHjHllCKQ3FA3-7idLvs5lxy0Ye36nk_GK8Pgx0IaH2sh2hWqk8vp9KI2emRzRU;
+        Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Sun, 18-May-2036 03:43:18
+        GMT
+      X-Node:
+      - api_com
+      - web18-r3-sfo2
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store, private
+      Expires:
+      - Mon, 23 May 2016 03:43:18 GMT
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding,User-Agent
+      X-Mode:
+      - ro
+      X-Proxied:
+      - extlb8-r11-sfo2
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a7580be1b042a61-SEA
+    body:
+      encoding: ASCII-8BIT
+      string: '{"is_claimed": false, "rating": 3.5, "mobile_url": "http://m.yelp.com/biz/el-cabrito-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "rating_img_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+        "review_count": 11, "name": "El Cabrito", "rating_img_url_small": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png",
+        "url": "http://www.yelp.com/biz/el-cabrito-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "categories": [["Food Trucks", "foodtrucks"], ["Mexican", "mexican"]], "reviews":
+        [{"rating": 4, "excerpt": "Saw this food truck last friday outside chucks
+        hop shop but according to the schedule posted on the bar el cabrito is only
+        there between 9pm-12mn. Anyway...", "time_created": 1460961523, "rating_image_url":
+        "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+        "rating_image_small_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+        "user": {"image_url": "http://s3-media3.fl.yelpcdn.com/photo/5nc7li2SLWhQpFiimJqMeA/ms.jpg",
+        "id": "oeYsGall1yjV2VHgcuWIjQ", "name": "Ange A."}, "rating_image_large_url":
+        "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+        "id": "ciLGwC8ArqQPf8JjMR4Qyw"}], "snippet_text": "Saw this food truck last
+        friday outside chucks hop shop but according to the schedule posted on the
+        bar el cabrito is only there between 9pm-12mn. Anyway...", "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/48V0qoM_0IeEaCy-mEvdPA/ms.jpg",
+        "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/5nc7li2SLWhQpFiimJqMeA/ms.jpg",
+        "rating_img_url_large": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+        "id": "el-cabrito-seattle", "is_closed": false, "location": {"cross_streets":
+        "Dearborn St \u0026 Charles St", "city": "Seattle", "display_address": ["828
+        Rainier Ave S", "Central District", "Seattle, WA 98144"], "geo_accuracy":
+        9.5, "neighborhoods": ["Central District"], "postal_code": "98144", "country_code":
+        "US", "address": ["828 Rainier Ave S"], "coordinate": {"latitude": 47.594999,
+        "longitude": -122.31044}, "state_code": "WA"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:18 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v2/business/el-camion-seattle-13
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Authorization:
+      - OAuth oauth_consumer_key="ac7g1t3S2ra7hSKSzUnBJA", oauth_nonce="cc2d2eaea65ad5345ff097e620a7472a",
+        oauth_signature="UMXtUoR87EaDSQffTWnOBqQKu00%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1463974998", oauth_token="0R49YaxmEebNFcNdEimzhyRLg463crzi",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 23 May 2016 03:43:19 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d27f561222e978dd9b31e1fca08eb1f001463974999; expires=Tue, 23-May-17
+        03:43:19 GMT; path=/; domain=.yelp.com; HttpOnly
+      - bse=dc8287e3f3a572c612103b56da002edb; Domain=.yelp.com; Path=/; HttpOnly
+      - yuv=4KcB0_LTDUxvjAcn3G2nTmPJwMDZ85W0FYAEiB-NkFHoG2PWkvMaqNTNOFA2VpKxBX7QMyHNazfQTxG3-KM4q3w3Q4WXALWG;
+        Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Sun, 18-May-2036 03:43:19
+        GMT
+      X-Node:
+      - api_com
+      - web19-r4-sfo2
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store, private
+      Expires:
+      - Mon, 23 May 2016 03:43:19 GMT
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding,User-Agent
+      X-Mode:
+      - ro
+      X-Proxied:
+      - extlb7-r10-sfo2
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a7580c012ea1bc1-SEA
+    body:
+      encoding: ASCII-8BIT
+      string: '{"is_claimed": true, "rating": 4.0, "mobile_url": "http://m.yelp.com/biz/el-camion-seattle-13?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+        "review_count": 278, "name": "El Camion", "rating_img_url_small": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+        "url": "http://www.yelp.com/biz/el-camion-seattle-13?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "categories": [["Mexican", "mexican"], ["Food Trucks", "foodtrucks"]], "menu_date_updated":
+        1463820997, "reviews": [{"rating": 5, "excerpt": "Helping my BF work on his
+        house, he took me to lunch if you want to call it that, next to Home Depot
+        after he picked up some plumbing fixtures.\n\nBest tamale...", "time_created":
+        1463773519, "rating_image_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png",
+        "rating_image_small_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png",
+        "user": {"image_url": "http://s3-media1.fl.yelpcdn.com/photo/RN8wjvdKBkY786wSL6W5BA/ms.jpg",
+        "id": "Rgavxg1hyAj7UGEf3WgInA", "name": "Cindy Y."}, "rating_image_large_url":
+        "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png",
+        "id": "Y_gYR_q4c06kMuc1ILo8Lg"}], "phone": "2063672777", "snippet_text": "This
+        has long been my favorite taco truck in the greater Seattle area. It''s usually
+        my go-to if I''m unsure where I want to eat, whether it''s for lunch on a...",
+        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/UtVhAgy0GJvEalApGkVjiQ/ms.jpg",
+        "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/ZAIQsIh7Hn-zi24vCHdeKA/ms.jpg",
+        "display_phone": "+1-206-367-2777", "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+        "menu_provider": "single_platform", "id": "el-camion-seattle-13", "is_closed":
+        false, "location": {"cross_streets": "125th St", "city": "Seattle", "display_address":
+        ["11728 Aurora Ave N", "Haller Lake", "Seattle, WA 98133"], "geo_accuracy":
+        8.0, "neighborhoods": ["Haller Lake"], "postal_code": "98133", "country_code":
+        "US", "address": ["11728 Aurora Ave N"], "coordinate": {"latitude": 47.71505,
+        "longitude": -122.34438}, "state_code": "WA"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:19 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v2/business/taqueria-el-antojo-seattle
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Authorization:
+      - OAuth oauth_consumer_key="ac7g1t3S2ra7hSKSzUnBJA", oauth_nonce="5821074cc0cb0211a65c4066dbbccac7",
+        oauth_signature="hm9oGRP7Fv7zkqF341%2B6CDoCL54%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1463974999", oauth_token="0R49YaxmEebNFcNdEimzhyRLg463crzi",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 23 May 2016 03:43:19 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d7021388f741f10f9edd1cdd33cabee201463974999; expires=Tue, 23-May-17
+        03:43:19 GMT; path=/; domain=.yelp.com; HttpOnly
+      - bse=9d5a9bcfdca5dfa0442a343fe78f3258; Domain=.yelp.com; Path=/; HttpOnly
+      - yuv=I0483XNfr1wrWx4RH4cVUVnYY0ooXYTZxYMtK_JHom6_VZA3Fu6hZoPW1nNNUy1tDDMB9cLRAtVbkbq-JpO-MqqA-FVGIfgL;
+        Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Sun, 18-May-2036 03:43:19
+        GMT
+      X-Node:
+      - api_com
+      - web15-r3-sfo2
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store, private
+      Expires:
+      - Mon, 23 May 2016 03:43:19 GMT
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding,User-Agent
+      X-Mode:
+      - ro
+      X-Proxied:
+      - extlb8-r11-sfo2
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a7580c1e0362aa3-SEA
+    body:
+      encoding: ASCII-8BIT
+      string: '{"is_claimed": false, "rating": 3.5, "mobile_url": "http://m.yelp.com/biz/taqueria-el-antojo-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "rating_img_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+        "review_count": 16, "name": "Taqueria El Antojo", "rating_img_url_small":
+        "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png",
+        "url": "http://www.yelp.com/biz/taqueria-el-antojo-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "categories": [["Food Trucks", "foodtrucks"], ["Mexican", "mexican"], ["Sandwiches",
+        "sandwiches"]], "reviews": [{"rating": 4, "excerpt": "I love this place! The
+        tacos are awesome and the owners are the nicest people ever. It''s a Thursday
+        night staple for me and my daughter. Simple, cheap and...", "time_created":
+        1457659971, "rating_image_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+        "rating_image_small_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+        "user": {"image_url": "http://s3-media3.fl.yelpcdn.com/photo/dZmb00JJcZsgYzGGhpbIUQ/ms.jpg",
+        "id": "1HUwbIirjNejFbKivv3Q9Q", "name": "Trevor R."}, "rating_image_large_url":
+        "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+        "id": "bxnUjsiyvmFc0ilKAZYkiw"}], "snippet_text": "I love this place! The
+        tacos are awesome and the owners are the nicest people ever. It''s a Thursday
+        night staple for me and my daughter. Simple, cheap and...", "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/FbbsPAtOWGyd8JQSK0hLwQ/ms.jpg",
+        "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/dZmb00JJcZsgYzGGhpbIUQ/ms.jpg",
+        "rating_img_url_large": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+        "id": "taqueria-el-antojo-seattle", "is_closed": false, "location": {"cross_streets":
+        "Eddy St \u0026 Graham St", "city": "Seattle", "display_address": ["6317 California
+        Ave SW", "Seaview", "Seattle, WA 98136"], "geo_accuracy": 9.5, "neighborhoods":
+        ["Seaview"], "postal_code": "98136", "country_code": "US", "address": ["6317
+        California Ave SW"], "coordinate": {"latitude": 47.546109, "longitude": -122.387229},
+        "state_code": "WA"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:19 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v2/business/bebas-and-amigos-seattle
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Authorization:
+      - OAuth oauth_consumer_key="ac7g1t3S2ra7hSKSzUnBJA", oauth_nonce="f231e0d4b2f7249cd823cb14194bfd35",
+        oauth_signature="1AA%2Bd7P6koN9J7ByomLyUfTxWJ0%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1463974999", oauth_token="0R49YaxmEebNFcNdEimzhyRLg463crzi",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 23 May 2016 03:43:19 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d2b92fbd7810a623231e206a972f71a0e1463974999; expires=Tue, 23-May-17
+        03:43:19 GMT; path=/; domain=.yelp.com; HttpOnly
+      - bse=743775f97150f801e0e7990d11a96c7a; Domain=.yelp.com; Path=/; HttpOnly
+      - yuv=w2_M3p8Cy42IfhUiQaVJnwO6mupnw9wdlhJ6N4Nv-wA878BEV8aKYHYPKZCtt6EfYXbbh3ghLuLvyh5Z-Us0w9cynWjh4T2B;
+        Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Sun, 18-May-2036 03:43:19
+        GMT
+      X-Node:
+      - api_com
+      - web28-r1-sfo2
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store, private
+      Expires:
+      - Mon, 23 May 2016 03:43:19 GMT
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding,User-Agent
+      X-Mode:
+      - ro
+      X-Proxied:
+      - extlb8-r11-sfo2
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a7580c36cc52a91-SEA
+    body:
+      encoding: ASCII-8BIT
+      string: '{"is_claimed": false, "rating": 4.0, "mobile_url": "http://m.yelp.com/biz/bebas-and-amigos-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+        "review_count": 32, "name": "Bebas \u0026 Amigos", "rating_img_url_small":
+        "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+        "url": "http://www.yelp.com/biz/bebas-and-amigos-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "categories": [["Delis", "delis"], ["Mexican", "mexican"], ["Breakfast \u0026
+        Brunch", "breakfast_brunch"]], "reviews": [{"rating": 5, "excerpt": "I got
+        here about 10:45, not knowing they stopped breakfast at 10:30 (have submitted
+        that correction to Yelp) but they made me a breakfast burrito anyways....",
+        "time_created": 1461262433, "rating_image_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png",
+        "rating_image_small_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png",
+        "user": {"image_url": "http://s3-media2.fl.yelpcdn.com/photo/ZYFsTGDSbNwzJK1-z0FeCw/ms.jpg",
+        "id": "fPaTHsudYaUGH662R3JTtw", "name": "Phil S."}, "rating_image_large_url":
+        "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png",
+        "id": "eRExlCqpKNCgW4XNfyA3Fw"}], "phone": "2066227085", "snippet_text": "I
+        got here about 10:45, not knowing they stopped breakfast at 10:30 (have submitted
+        that correction to Yelp) but they made me a breakfast burrito anyways....",
+        "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/yLcNHvbcRYdsBtJy2U3CzQ/ms.jpg",
+        "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/ZYFsTGDSbNwzJK1-z0FeCw/ms.jpg",
+        "display_phone": "+1-206-622-7085", "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+        "id": "bebas-and-amigos-seattle", "is_closed": false, "location": {"cross_streets":
+        "Lane St \u0026 Columbia St", "city": "Seattle", "display_address": ["700
+        5th Ave", "Ste 604", "Downtown", "Seattle, WA 98104"], "geo_accuracy": 8.0,
+        "neighborhoods": ["Downtown"], "postal_code": "98104", "country_code": "US",
+        "address": ["700 5th Ave", "Ste 604"], "coordinate": {"latitude": 47.6046464,
+        "longitude": -122.3298066}, "state_code": "WA"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:19 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v2/business/blue-water-taco-grill-seattle-14
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Authorization:
+      - OAuth oauth_consumer_key="ac7g1t3S2ra7hSKSzUnBJA", oauth_nonce="df1e09cd0dff356247c45da2ee7e56b4",
+        oauth_signature="BaqxECT%2FxVwRhRT7zNhUr%2FbVExM%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1463974999", oauth_token="0R49YaxmEebNFcNdEimzhyRLg463crzi",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 23 May 2016 03:43:20 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d37dbefb145d372ab7890c69e5b3304421463975000; expires=Tue, 23-May-17
+        03:43:20 GMT; path=/; domain=.yelp.com; HttpOnly
+      - bse=42ef8a73b951fd912dca528df5977435; Domain=.yelp.com; Path=/; HttpOnly
+      - yuv=TNBqlgTiTo--ETEhkceNRQmswYxwKlm9mkbBAVNj3yYSP3tVB5R4DGNb46pqj5Zfj2bFGYroZAvcbGIJeJIK0z854jGXvA3J;
+        Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Sun, 18-May-2036 03:43:20
+        GMT
+      X-Node:
+      - 10-64-100-94-uswest1aprod
+      - api_com
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store, private
+      Expires:
+      - Mon, 23 May 2016 03:43:20 GMT
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding,User-Agent
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-64-0-235-uswest1aprod
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a7580c60a6e2a1f-SEA
+    body:
+      encoding: ASCII-8BIT
+      string: '{"is_claimed": true, "rating": 3.5, "mobile_url": "http://m.yelp.com/biz/blue-water-taco-grill-seattle-14?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "rating_img_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+        "review_count": 12, "name": "Blue Water Taco Grill", "rating_img_url_small":
+        "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png",
+        "url": "http://www.yelp.com/biz/blue-water-taco-grill-seattle-14?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "categories": [["Mexican", "mexican"]], "reviews": [{"rating": 5, "excerpt":
+        "Blue Water Taco Grill does tacos just like they should be done, and they
+        have multiple vegetarian options to choose from regardless of the time of
+        day. I''ve...", "time_created": 1444832170, "rating_image_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png",
+        "rating_image_small_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png",
+        "user": {"image_url": "http://s3-media4.fl.yelpcdn.com/photo/3UK1UK9LE_yGdq5gfJ8Iiw/ms.jpg",
+        "id": "9TAiDU0sTVqvT00P_tHEFQ", "name": "Daniel F."}, "rating_image_large_url":
+        "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png",
+        "id": "jOuLsh2zM8fQZTcrjHi8rg"}], "phone": "2068052060", "snippet_text": "I
+        work down the street from Blue Water Taco Grill. Ok, maybe like .7 miles.
+        Close enough. Walking distance, yea.\n\nSometimes in charge of ordering lunch
+        for...", "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/fi2JuBmlbQ2q0INE75GgwA/ms.jpg",
+        "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/UqU9ML_uZwHJnzJqcxXBzA/ms.jpg",
+        "display_phone": "+1-206-805-2060", "rating_img_url_large": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+        "id": "blue-water-taco-grill-seattle-14", "is_closed": false, "location":
+        {"cross_streets": "Forest St \u0026 Hanford St", "city": "Seattle", "display_address":
+        ["2962 1st Ave S", "Industrial District", "Seattle, WA 98134"], "geo_accuracy":
+        8.0, "neighborhoods": ["Industrial District"], "postal_code": "98134", "country_code":
+        "US", "address": ["2962 1st Ave S"], "coordinate": {"latitude": 47.5758209,
+        "longitude": -122.3337708}, "state_code": "WA"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:20 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v2/business/le-panier-french-bakery-seattle
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Authorization:
+      - OAuth oauth_consumer_key="ac7g1t3S2ra7hSKSzUnBJA", oauth_nonce="f2510249cc09d4aedc3db1bd8881d0c9",
+        oauth_signature="OJYWzeGhAsjnf7WL08INZyBCgTs%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1463975000", oauth_token="0R49YaxmEebNFcNdEimzhyRLg463crzi",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 23 May 2016 03:43:20 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d7d7f23927490334f532a879e4605a3661463975000; expires=Tue, 23-May-17
+        03:43:20 GMT; path=/; domain=.yelp.com; HttpOnly
+      - bse=b9134f1680d750f33fb368d45bf1921c; Domain=.yelp.com; Path=/; HttpOnly
+      - yuv=HKLojx9eWHefcklkg43uQAOVghOr5jYZF0Uhaet5SKbjhJiRlHO_DeDwN5CRhURARncXc27upd1j6DPZ2_0ekCREug7N0ZGs;
+        Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Sun, 18-May-2036 03:43:20
+        GMT
+      X-Node:
+      - api_com
+      - web100-r10-sfo2
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store, private
+      Expires:
+      - Mon, 23 May 2016 03:43:20 GMT
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding,User-Agent
+      X-Mode:
+      - ro
+      X-Proxied:
+      - extlb8-r11-sfo2
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a7580c753b61bc1-SEA
+    body:
+      encoding: ASCII-8BIT
+      string: '{"is_claimed": true, "rating": 4.5, "mobile_url": "http://m.yelp.com/biz/le-panier-french-bakery-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+        "review_count": 1585, "name": "Le Panier French Bakery", "rating_img_url_small":
+        "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+        "url": "http://www.yelp.com/biz/le-panier-french-bakery-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "categories": [["Bakeries", "bakeries"], ["French", "french"], ["Sandwiches",
+        "sandwiches"]], "menu_date_updated": 1441924368, "reviews": [{"rating": 5,
+        "excerpt": "You have to visit this spot when in Pike Place- especially if
+        you love baked goodies! The line can get pretty long but it is worth the wait!
+        I came in for...", "time_created": 1462820136, "rating_image_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png",
+        "rating_image_small_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png",
+        "user": {"image_url": "http://s3-media3.fl.yelpcdn.com/photo/OGnA_0RNJv9B-91RRxW-Eg/ms.jpg",
+        "id": "ANB7jGRX6Mz-lNqAFd6hHA", "name": "Sharon C."}, "rating_image_large_url":
+        "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png",
+        "id": "VM4SnnZFnRiqZwcrlkaFWA"}], "phone": "2064413669", "snippet_text": "You
+        have to visit this spot when in Pike Place- especially if you love baked goodies!
+        The line can get pretty long but it is worth the wait! I came in for...",
+        "image_url": "https://s3-media1.fl.yelpcdn.com/bphoto/us-U7fQTzj-g5tga28wsFQ/ms.jpg",
+        "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/OGnA_0RNJv9B-91RRxW-Eg/ms.jpg",
+        "display_phone": "+1-206-441-3669", "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+        "menu_provider": "single_platform", "id": "le-panier-french-bakery-seattle",
+        "is_closed": false, "location": {"cross_streets": "Western Ave \u0026 Virginia
+        St", "city": "Seattle", "display_address": ["1902 Pike Pl", "Downtown", "Seattle,
+        WA 98101"], "geo_accuracy": 8.0, "neighborhoods": ["Downtown"], "postal_code":
+        "98101", "country_code": "US", "address": ["1902 Pike Pl"], "coordinate":
+        {"latitude": 47.6098933070898, "longitude": -122.342474609613}, "state_code":
+        "WA"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:20 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v2/business/memos-mexican-food-restaurant-seattle
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Authorization:
+      - OAuth oauth_consumer_key="ac7g1t3S2ra7hSKSzUnBJA", oauth_nonce="668a1b9d6a0cd474694e6ac9db2cd77b",
+        oauth_signature="EQh6bv3lv9MfG6dyl5quH9D3ogg%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1463975000", oauth_token="0R49YaxmEebNFcNdEimzhyRLg463crzi",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 23 May 2016 03:43:20 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d636e4cb8608a0fd0970458774b2940111463975000; expires=Tue, 23-May-17
+        03:43:20 GMT; path=/; domain=.yelp.com; HttpOnly
+      - bse=dbed7d78753bad8c161d6405e699eade; Domain=.yelp.com; Path=/; HttpOnly
+      - yuv=Vi3pXo_jWvksO9b5u21FSOSEC6CAVfbNg0PMNj759z8kMpakv-EGDnRdTdiVDM6zPX0n3ZiJRyAegbMzJcqYCblg7CqwpC4V;
+        Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Sun, 18-May-2036 03:43:20
+        GMT
+      X-Node:
+      - api_com
+      - web64-r7-sfo2
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store, private
+      Expires:
+      - Mon, 23 May 2016 03:43:20 GMT
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding,User-Agent
+      X-Mode:
+      - ro
+      X-Proxied:
+      - extlb7-r10-sfo2
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a7580c8ca5f2aa3-SEA
+    body:
+      encoding: ASCII-8BIT
+      string: '{"is_claimed": false, "rating": 3.0, "mobile_url": "http://m.yelp.com/biz/memos-mexican-food-restaurant-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "rating_img_url": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/34bc8086841c/ico/stars/v1/stars_3.png",
+        "review_count": 259, "name": "Memo''s Mexican Food Restaurant", "rating_img_url_small":
+        "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/902abeed0983/ico/stars/v1/stars_small_3.png",
+        "url": "http://www.yelp.com/biz/memos-mexican-food-restaurant-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "categories": [["Mexican", "mexican"]], "reviews": [{"rating": 4, "excerpt":
+        "Finally! Juicy, shredded beef tacos with actual fried tortillas! Not the
+        dry, brittle stuff at most places. A real tortilla, fried to perfection, glistening...",
+        "time_created": 1460362605, "rating_image_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+        "rating_image_small_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+        "user": {"image_url": "http://s3-media3.fl.yelpcdn.com/photo/3PKTQisH5W073NPNalJfmg/ms.jpg",
+        "id": "ikrNqVur5MEHmiO_beKlIQ", "name": "Tony B."}, "rating_image_large_url":
+        "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+        "id": "W87FmEm-5l9GCeWZA2v2Jw"}], "phone": "2067295071", "snippet_text": "Finally!
+        Juicy, shredded beef tacos with actual fried tortillas! Not the dry, brittle
+        stuff at most places. A real tortilla, fried to perfection, glistening...",
+        "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/xiv0DWRp9AhIxgUJZPPPig/ms.jpg",
+        "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/3PKTQisH5W073NPNalJfmg/ms.jpg",
+        "display_phone": "+1-206-729-5071", "rating_img_url_large": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/e8b5b79d37ed/ico/stars/v1/stars_large_3.png",
+        "id": "memos-mexican-food-restaurant-seattle", "is_closed": false, "location":
+        {"cross_streets": "47th St \u0026 50th St", "city": "Seattle", "display_address":
+        ["4743 University Way NE", "University District", "Seattle, WA 98105"], "geo_accuracy":
+        8.0, "neighborhoods": ["University District"], "postal_code": "98105", "country_code":
+        "US", "address": ["4743 University Way NE"], "coordinate": {"latitude": 47.6643199,
+        "longitude": -122.31334}, "state_code": "WA"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:20 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v2/business/malenas-taco-shop-seattle
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Authorization:
+      - OAuth oauth_consumer_key="ac7g1t3S2ra7hSKSzUnBJA", oauth_nonce="228752145c610114aaf02ca84a84cc86",
+        oauth_signature="j%2Fzcr1wUNZxMF7sVGnMgGKO4%2FT0%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1463975000", oauth_token="0R49YaxmEebNFcNdEimzhyRLg463crzi",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 23 May 2016 03:43:20 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d176b3faaa6043173903f151b0fb734941463975000; expires=Tue, 23-May-17
+        03:43:20 GMT; path=/; domain=.yelp.com; HttpOnly
+      - bse=64d894bc09faa2530faf61502944c265; Domain=.yelp.com; Path=/; HttpOnly
+      - yuv=kVvvAGdeYkBsNBvhoD2aJz3SIeSpnSPm69LgVlQqvqv9mjsKbljfwwLeoXntFfTyHwl1VL49xrXDRNxwNkbKSIrkhONkusN-;
+        Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Sun, 18-May-2036 03:43:20
+        GMT
+      X-Node:
+      - api_com
+      - web57-r7-sfo2
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store, private
+      Expires:
+      - Mon, 23 May 2016 03:43:20 GMT
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding,User-Agent
+      X-Mode:
+      - ro
+      X-Proxied:
+      - extlb7-r10-sfo2
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a7580ca06d32a37-SEA
+    body:
+      encoding: ASCII-8BIT
+      string: '{"is_claimed": false, "rating": 3.5, "mobile_url": "http://m.yelp.com/biz/malenas-taco-shop-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "rating_img_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/5ef3eb3cb162/ico/stars/v1/stars_3_half.png",
+        "review_count": 111, "name": "Malena''s Taco Shop", "rating_img_url_small":
+        "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/2e909d5d3536/ico/stars/v1/stars_small_3_half.png",
+        "url": "http://www.yelp.com/biz/malenas-taco-shop-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "categories": [["Mexican", "mexican"]], "menu_date_updated": 1441924632, "reviews":
+        [{"rating": 5, "excerpt": "Best Mexican food I''ve found in Seattle!!! Way
+        better than el camion, and every other taco truck I''ve been to.\n\nStopped
+        by Malena''s Tacos after my husband...", "time_created": 1452493664, "rating_image_url":
+        "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png",
+        "rating_image_small_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png",
+        "user": {"image_url": "http://s3-media1.fl.yelpcdn.com/photo/3WNrqq9duKwRBUb_rOH0hA/ms.jpg",
+        "id": "JLawPbLbrNcjCEbmtxoHhQ", "name": "Mindy M."}, "rating_image_large_url":
+        "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png",
+        "id": "BpbqxIIyyWiGYjFRUENXRQ"}], "phone": "2067898207", "snippet_text": "Best
+        Mexican food I''ve found in Seattle!!! Way better than el camion, and every
+        other taco truck I''ve been to.\n\nStopped by Malena''s Tacos after my husband...",
+        "image_url": "https://s3-media4.fl.yelpcdn.com/bphoto/1nxGmMz7W5PlFwdQRZ7TLQ/ms.jpg",
+        "snippet_image_url": "http://s3-media1.fl.yelpcdn.com/photo/3WNrqq9duKwRBUb_rOH0hA/ms.jpg",
+        "display_phone": "+1-206-789-8207", "rating_img_url_large": "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/bd9b7a815d1b/ico/stars/v1/stars_large_3_half.png",
+        "menu_provider": "single_platform", "id": "malenas-taco-shop-seattle", "is_closed":
+        false, "location": {"cross_streets": "N 22nd Ave \u0026 N 20th Ave", "city":
+        "Seattle", "display_address": ["2010 NW 56th St", "Ballard", "Seattle, WA
+        98107"], "geo_accuracy": 8.0, "neighborhoods": ["Ballard"], "postal_code":
+        "98107", "country_code": "US", "address": ["2010 NW 56th St"], "coordinate":
+        {"latitude": 47.6695949, "longitude": -122.3829968}, "state_code": "WA"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:20 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v2/business/taqueria-costa-alegre-taco-bus-seattle
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Authorization:
+      - OAuth oauth_consumer_key="ac7g1t3S2ra7hSKSzUnBJA", oauth_nonce="5773ca6a27d073f2c0788696502897b1",
+        oauth_signature="HWWkv8WwwtMT0G2DsprLJWmngUI%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1463975000", oauth_token="0R49YaxmEebNFcNdEimzhyRLg463crzi",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 23 May 2016 03:43:21 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d7d7f23927490334f532a879e4605a3661463975000; expires=Tue, 23-May-17
+        03:43:20 GMT; path=/; domain=.yelp.com; HttpOnly
+      - bse=af33b4303141fba3aaf7c60518277613; Domain=.yelp.com; Path=/; HttpOnly
+      - yuv=GABPHoepbI1VjgpC6kmHNuAsx5NIM88Le7iIEkqNS0Vva3aEa88ZM5oppCpa6RRG9Y2KVgPn0YH33V2b5KCKNM8_d9rq3_J_;
+        Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Sun, 18-May-2036 03:43:20
+        GMT
+      X-Node:
+      - api_com
+      - web20-r4-sfo2
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store, private
+      Expires:
+      - Mon, 23 May 2016 03:43:20 GMT
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding,User-Agent
+      X-Mode:
+      - ro
+      X-Proxied:
+      - extlb7-r10-sfo2
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a7580cbb4ae1bc1-SEA
+    body:
+      encoding: ASCII-8BIT
+      string: '{"is_claimed": false, "rating": 4.5, "mobile_url": "http://m.yelp.com/biz/taqueria-costa-alegre-taco-bus-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+        "review_count": 21, "name": "Taqueria Costa Alegre Taco Bus", "rating_img_url_small":
+        "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+        "url": "http://www.yelp.com/biz/taqueria-costa-alegre-taco-bus-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "categories": [["Mexican", "mexican"], ["Food Trucks", "foodtrucks"], ["Fast
+        Food", "hotdogs"]], "reviews": [{"rating": 5, "excerpt": "sweet couple running
+        this place! it''s near my home so my sister and I decided to try it out. killer
+        torta de alambre!!!! anything de alambre is a specialty...", "time_created":
+        1451270932, "rating_image_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png",
+        "rating_image_small_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png",
+        "user": {"image_url": "http://s3-media2.fl.yelpcdn.com/photo/HDEfSOuLlv_FI2L5f2G-Aw/ms.jpg",
+        "id": "-oblmCQwKoQV8Xy91X7Z1A", "name": "Joanne N."}, "rating_image_large_url":
+        "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png",
+        "id": "5NudghYJtj6H_YYl_IPfTw"}], "phone": "2069489068", "snippet_text": "sweet
+        couple running this place! it''s near my home so my sister and I decided to
+        try it out. killer torta de alambre!!!! anything de alambre is a specialty...",
+        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/EpErXe_8DXMFFFvFpTGADw/ms.jpg",
+        "snippet_image_url": "http://s3-media2.fl.yelpcdn.com/photo/HDEfSOuLlv_FI2L5f2G-Aw/ms.jpg",
+        "display_phone": "+1-206-948-9068", "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+        "id": "taqueria-costa-alegre-taco-bus-seattle", "is_closed": false, "location":
+        {"cross_streets": "Director St \u0026 Henderson St", "city": "Seattle", "display_address":
+        ["9000 Rainier Ave S", "Rainier Beach", "Seattle, WA 98118"], "geo_accuracy":
+        8.0, "neighborhoods": ["Rainier Beach"], "postal_code": "98118", "country_code":
+        "US", "address": ["9000 Rainier Ave S"], "coordinate": {"latitude": 47.52262,
+        "longitude": -122.26921}, "state_code": "WA"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:21 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v2/business/crepe-cafe-and-wine-bar-seattle
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Authorization:
+      - OAuth oauth_consumer_key="ac7g1t3S2ra7hSKSzUnBJA", oauth_nonce="91f7edd1bbfc24834dc16f047e600410",
+        oauth_signature="%2B0m3vZ%2FTA2jUCBp8ExkB0C0awWc%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1463975001", oauth_token="0R49YaxmEebNFcNdEimzhyRLg463crzi",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 23 May 2016 03:43:21 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=de4da779066646e47023ec10d104875951463975001; expires=Tue, 23-May-17
+        03:43:21 GMT; path=/; domain=.yelp.com; HttpOnly
+      - bse=0ce2e66113a9ef88e25d4fe509c8e563; Domain=.yelp.com; Path=/; HttpOnly
+      - yuv=mmFM6LREpshPLClhGZ8r3Ct7OTj5PJPfueeHe4qWqa33Y9PeaYdqEFkgEnMdS1ypMfVWjHNJLs34Ne9sgaRD5PHHZYJBNH4x;
+        Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Sun, 18-May-2036 03:43:21
+        GMT
+      X-Node:
+      - api_com
+      - web20-r4-sfo2
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store, private
+      Expires:
+      - Mon, 23 May 2016 03:43:21 GMT
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding,User-Agent
+      X-Mode:
+      - ro
+      X-Proxied:
+      - extlb8-r11-sfo2
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a7580cd29090c47-SEA
+    body:
+      encoding: ASCII-8BIT
+      string: '{"is_claimed": true, "rating": 4.0, "mobile_url": "http://m.yelp.com/biz/crepe-cafe-and-wine-bar-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "rating_img_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+        "review_count": 184, "name": "Crepe Cafe \u0026 Wine Bar", "rating_img_url_small":
+        "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+        "url": "http://www.yelp.com/biz/crepe-cafe-and-wine-bar-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "categories": [["French", "french"], ["Creperies", "creperies"], ["Wine Bars",
+        "wine_bars"]], "menu_date_updated": 1441968434, "reviews": [{"rating": 4,
+        "excerpt": "Cute little bistro with friendly service. They have a variety
+        of both savory and sweet crepes and the sweet crepes comes in two sizes. I
+        opted for the full...", "time_created": 1462864419, "rating_image_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/c2f3dd9799a5/ico/stars/v1/stars_4.png",
+        "rating_image_small_url": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/f62a5be2f902/ico/stars/v1/stars_small_4.png",
+        "user": {"image_url": "http://s3-media3.fl.yelpcdn.com/photo/D1QUJmoJUahNmUeOqhoKEQ/ms.jpg",
+        "id": "mtGw8bQTQToVR_1KWD7F7A", "name": "Phuong B."}, "rating_image_large_url":
+        "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+        "id": "jun8_MxqkdigDyqPc7MbKQ"}], "phone": "2065277147", "snippet_text": "Cute
+        little bistro with friendly service. They have a variety of both savory and
+        sweet crepes and the sweet crepes comes in two sizes. I opted for the full...",
+        "image_url": "https://s3-media2.fl.yelpcdn.com/bphoto/i-XZ_Gt9t-asxwE0ivyygQ/ms.jpg",
+        "snippet_image_url": "http://s3-media3.fl.yelpcdn.com/photo/D1QUJmoJUahNmUeOqhoKEQ/ms.jpg",
+        "display_phone": "+1-206-527-7147", "rating_img_url_large": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/ccf2b76faa2c/ico/stars/v1/stars_large_4.png",
+        "menu_provider": "single_platform", "id": "crepe-cafe-and-wine-bar-seattle",
+        "is_closed": false, "location": {"cross_streets": "N 21st Ave \u0026 N Ravenna
+        Ave", "city": "Seattle", "display_address": ["2118 NE 65th St", "Ravenna",
+        "Seattle, WA 98115"], "geo_accuracy": 8.0, "neighborhoods": ["Ravenna"], "postal_code":
+        "98115", "country_code": "US", "address": ["2118 NE 65th St"], "coordinate":
+        {"latitude": 47.67591, "longitude": -122.3043}, "state_code": "WA"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:21 GMT
+- request:
+    method: get
+    uri: https://api.yelp.com/v2/business/tacos-chukis-seattle
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v0.9.2
+      Authorization:
+      - OAuth oauth_consumer_key="ac7g1t3S2ra7hSKSzUnBJA", oauth_nonce="d4beee6bd80a7385f05681bd327e9c75",
+        oauth_signature="4JfOWcJ4zTUa6G7WnzbMuZ4mcEE%3D", oauth_signature_method="HMAC-SHA1",
+        oauth_timestamp="1463975001", oauth_token="0R49YaxmEebNFcNdEimzhyRLg463crzi",
+        oauth_version="1.0"
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Mon, 23 May 2016 03:43:21 GMT
+      Content-Type:
+      - application/json; charset=UTF-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Set-Cookie:
+      - __cfduid=d3920e9260d293b220e338ba39b7cd5c91463975001; expires=Tue, 23-May-17
+        03:43:21 GMT; path=/; domain=.yelp.com; HttpOnly
+      - bse=0695352c546ed4f062f3d381d7f9b9d6; Domain=.yelp.com; Path=/; HttpOnly
+      - yuv=-bEvNGZdD7xk9Qd51Nd6lR4EVI4yJ_bqDgs-oF6leFPT5coWSdgtSv_ZObF28eQpqkj-mn9T4i6-D95q5IYIwHwmCb7FJ5GP;
+        Domain=.yelp.com; Max-Age=630720000; Path=/; expires=Sun, 18-May-2036 03:43:21
+        GMT
+      X-Node:
+      - 10-64-134-228-uswest1bprod
+      - api_com
+      Cache-Control:
+      - max-age=0, must-revalidate, no-cache, no-store, private
+      Expires:
+      - Mon, 23 May 2016 03:43:21 GMT
+      Pragma:
+      - no-cache
+      Vary:
+      - Accept-Encoding,User-Agent
+      X-Mode:
+      - ro
+      X-Proxied:
+      - 10-64-0-235-uswest1aprod
+      Server:
+      - cloudflare-nginx
+      Cf-Ray:
+      - 2a7580cf08a91b97-SEA
+    body:
+      encoding: ASCII-8BIT
+      string: '{"is_claimed": true, "rating": 4.5, "mobile_url": "http://m.yelp.com/biz/tacos-chukis-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "rating_img_url": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/99493c12711e/ico/stars/v1/stars_4_half.png",
+        "review_count": 689, "name": "Tacos Chukis", "rating_img_url_small": "https://s3-media2.fl.yelpcdn.com/assets/2/www/img/a5221e66bc70/ico/stars/v1/stars_small_4_half.png",
+        "url": "http://www.yelp.com/biz/tacos-chukis-seattle?utm_campaign=yelp_api\u0026utm_medium=api_v2_business\u0026utm_source=ac7g1t3S2ra7hSKSzUnBJA",
+        "categories": [["Mexican", "mexican"]], "reviews": [{"rating": 5, "excerpt":
+        "W O W. just mind blowing wow. I''ve never had tacos this delicious. I''ve
+        waited to try Tacos Chukis and I cannot BELIEVE I waited this long. It''s
+        a tiny gem...", "time_created": 1463819585, "rating_image_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/f1def11e4e79/ico/stars/v1/stars_5.png",
+        "rating_image_small_url": "https://s3-media1.fl.yelpcdn.com/assets/2/www/img/c7623205d5cd/ico/stars/v1/stars_small_5.png",
+        "user": {"image_url": "http://s3-media4.fl.yelpcdn.com/photo/MmuYpx8P5HE4SeeLYo-0FA/ms.jpg",
+        "id": "VAaNZBd6MES6EHWTyBmlFQ", "name": "Annie M."}, "rating_image_large_url":
+        "https://s3-media3.fl.yelpcdn.com/assets/2/www/img/22affc4e6c38/ico/stars/v1/stars_large_5.png",
+        "id": "fLS9KyAf8-6D6X1zmkt3WQ"}], "phone": "2063284447", "snippet_text": "In
+        a city of $$$, this taco shop is an oasis of inexpensive, deliciously prepared
+        eats.\n\nA small menu done right is often the way to go.\n\nBeer is in...",
+        "image_url": "https://s3-media3.fl.yelpcdn.com/bphoto/qxFr4q5vKzct8XxBxNTawQ/ms.jpg",
+        "snippet_image_url": "http://s3-media4.fl.yelpcdn.com/photo/oMN1XM-gTS0i2RtNCbnrGA/ms.jpg",
+        "display_phone": "+1-206-328-4447", "rating_img_url_large": "https://s3-media4.fl.yelpcdn.com/assets/2/www/img/9f83790ff7f6/ico/stars/v1/stars_large_4_half.png",
+        "id": "tacos-chukis-seattle", "is_closed": false, "location": {"cross_streets":
+        "John St \u0026 Olive Way", "city": "Seattle", "display_address": ["219 Broadway
+        E", "Capitol Hill", "Seattle, WA 98102"], "geo_accuracy": 9.5, "neighborhoods":
+        ["Capitol Hill"], "postal_code": "98102", "country_code": "US", "address":
+        ["219 Broadway E"], "coordinate": {"latitude": 47.620570445175, "longitude":
+        -122.321262359619}, "state_code": "WA"}}'
+    http_version: 
+  recorded_at: Mon, 23 May 2016 03:43:21 GMT
+recorded_with: VCR 3.0.3

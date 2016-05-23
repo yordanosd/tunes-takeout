@@ -10,6 +10,10 @@ class Music
     result = "RSpotify::#{type}".constantize.find(id)
   end
 
+  def self.user_info
+    data = HTTParty.get("https://api.spotify.com/v1/me").parsed_response
+  end
+
   def self.picture?(image)
     if image.nil?
       return ALBUM_PICTURE
